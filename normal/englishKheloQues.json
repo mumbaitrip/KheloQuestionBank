@@ -97,24 +97,6 @@
 		"answer": [" A snack", "A coin", "A bus", "A bat"],
 		"correctAnswer": "A coin"
 	}, {
-		"id": 131,
-		"question": "अगर नाक पर मैं चढ़ जाऊँ,\nतो कान पकड़कर खूब पढ़ाऊँ |",
-		"category": "hindi",
-		"answer": ["चश्मा", "तितली", "गुस्सा", "हवा"],
-		"correctAnswer": "चश्मा"
-	}, {
-		"id": 132,
-		"question": "मेरे नाम से सब डरते हैं, मेरे लिए परिश्रम करते हैं |",
-		"category": "hindi",
-		"answer": ["पानी", "परीक्षा", "मिर्ची", "आग"],
-		"correctAnswer": "परीक्षा"
-	}, {
-		"id": 133,
-		"question": "मैं मरती हूँ, मैं कटती हूँ |\nपर रोते हो तुम, पहचानो कौन हूँ मैं |",
-		"category": "hindi",
-		"answer": ["प्याज", "रूई", "मिर्ची", "मोमबत्ती"],
-		"correctAnswer": "प्याज"
-	}, {
 		"id": 134,
 		"question": "What goes up as soon as the rain comes down?",
 		"category": "english",
