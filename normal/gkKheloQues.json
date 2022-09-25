@@ -197,5 +197,287 @@
 		"category": "gk",
 		"answer": ["Octagon", "Decagon", "Polygon", "Hexagon"],
 		"correctAnswer": "Decagon"
+	}, {
+		"id": 167,
+		"question": "Who is Sachine Tandulkar?",
+		"category": "gk",
+		"answer": ["A Cricketer", "A Golfer", "A Singer", "A Dancer"],
+		"correctAnswer": "A Cricketer"
+	}, {
+		"id": 338,
+		"question": "Nick name of \"Dibrugarh\"?",
+		"category": "gk",
+		"answer": ["Silk City", "Tea City Of India", "Steel capital Of India", "City Of Rallies"],
+		"correctAnswer": "Tea City Of India"
+	}, {
+		"id": 339,
+		"question": "Nickname of \"Hajipur\"?",
+		"category": "gk",
+		"answer": ["Silk City", "The City Of Blood", "Bananas City", "Green City"],
+		"correctAnswer": "Bananas City"
+	}, {
+		"id": 340,
+		"question": "\"Kurukshetra\" is known as?",
+		"category": "gk",
+		"answer": ["City Of Lakes", "Queen Of Hills", "Land Of Arecanut", "City Of Mahabharata"],
+		"correctAnswer": "City Of Mahabharata"
+	}, {
+		"id": 341,
+		"question": "\"Guwahati\" is known as:",
+		"category": "gk",
+		"answer": ["The Land Of Leechi", "Gateway Of Bastar", "Gateway Of North East India", "Textile City Of India"],
+		"correctAnswer": "Gateway Of North East India"
+	}, {
+		"id": 342,
+		"question": "\"Bhagalpur\" is know as:",
+		"category": "gk",
+		"answer": ["Silk City", "Bananas City", "Rice Bowl Of India", "City Of Rallies"],
+		"correctAnswer": "Silk City"
+	}, {
+		"id": 343,
+		"question": "\"Gaya\" is known as:",
+		"category": "gk",
+		"answer": ["Gateway Of Bastar", "Green City", "Mini Lahasa", "The City Of Enlightenment"],
+		"correctAnswer": "The City Of Enlightenment"
+	}, {
+		"id": 344,
+		"question": "\"Muzaffarpur\" is also called:",
+		"category": "gk",
+		"answer": ["Steel capital Of India", "The Land Of Leechi", "Gateway Of Bastar", "City Of Rallies"],
+		"correctAnswer": "The Land Of Leechi"
+	}, {
+		"id": 345,
+		"question": "\"Nalanda\" is also know as:",
+		"category": "gk",
+		"answer": ["The Land Of Leechi", "Rice Bowl Of India", "Land Of Knowledge", "Butter City"],
+		"correctAnswer": "Land Of Knowledge"
+	}, {
+		"id": 346,
+		"question": "Which city is known as \"City Of Rallies\"?",
+		"category": "gk",
+		"answer": ["Bhopal ", "New Delhi", "Mumbai", "Pune"],
+		"correctAnswer": "New Delhi"
+	}, {
+		"id": 347,
+		"question": "Which city is known as \"Cleanest City Of India\"?",
+		"category": "gk",
+		"answer": ["Mumbai", "Cheenai", "Indore", "Jabalpur"],
+		"correctAnswer": "Indore"
+	}, {
+		"id": 348,
+		"question": "Which city is known as \"Mini Mumbai\"?",
+		"category": "gk",
+		"answer": ["Pune", "Bhopal", "Indore", "Gandhinagar"],
+		"correctAnswer": "Indore"
+	}, {
+		"id": 349,
+		"question": "Which city is know as \"Power Hub City\"?",
+		"category": "gk",
+		"answer": ["Indore", "Jalgaon", "Bhopal", "Mundi"],
+		"correctAnswer": "Mundi"
+	}, {
+		"id": 350,
+		"question": "Where \"Gateway Of India\" is present?",
+		"category": "gk",
+		"answer": ["Mumbai", "Nasik", "Cuttack", "Pondicherry"],
+		"correctAnswer": "Mumbai"
+	}, {
+		"id": 351,
+		"question": "Where \"Red Fort\" is present?",
+		"category": "gk",
+		"answer": ["Delhi", "Bikaner", "Udaipur", "Jodhpur"],
+		"correctAnswer": "Delhi"
+	}, {
+		"id": 352,
+		"question": "Which place is known as \"Yoga Capital Of The World\"?",
+		"category": "gk",
+		"answer": ["Shimla", "Mathura", "Agra", "Rishikesh"],
+		"correctAnswer": "Rishikesh"
+	}, {
+		"id": 353,
+		"question": "Which place is known as \"Silver City\"?",
+		"category": "gk",
+		"answer": ["Puri", "Cuttack", "Bikaner", "Bikaner"],
+		"correctAnswer": "Cuttack"
+	}, {
+		"id": 354,
+		"question": "\"Taj Mahal\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Delhi", "Agra", "Pune", "Indore"],
+		"correctAnswer": "Agra"
+	}, {
+		"id": 355,
+		"question": "\"Qutab Minar\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Delhi", "Riapur", "Juna", "Agra"],
+		"correctAnswer": "Delhi"
+	}, {
+		"id": 356,
+		"question": "\"Charminar\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Hyderabad", "Nasik", "Pune", "Mumbai"],
+		"correctAnswer": "Hyderabad"
+	}, {
+		"id": 357,
+		"question": "\"India Gate\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Goa", "Jaipur", "Delhi", "Mumbai"],
+		"correctAnswer": "Delhi"
+	}, {
+		"id": 358,
+		"question": "\"Lotus Temple\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Amritsar", "Guna", "Delhi", "Jaipur"],
+		"correctAnswer": "Delhi"
+	}, {
+		"id": 359,
+		"question": "\"Jama Masjid\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Bhopal", "Alibagh", "Pune", "Delhi"],
+		"correctAnswer": "Delhi"
+	}, {
+		"id": 360,
+		"question": "\"Golden Temple\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Lahor", "Delhi", "Amritsar", "Mumbai"],
+		"correctAnswer": "Amritsar"
+	}, {
+		"id": 361,
+		"question": "\"Amer Fort\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Jaipur", "Jabalpur", "Kota", "Mandu"],
+		"correctAnswer": "Jaipur"
+	}, {
+		"id": 362,
+		"question": "\"City Palace\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Udaipur", "Raipur", "Jaipur", "Delhi"],
+		"correctAnswer": "Udaipur"
+	}, {
+		"id": 363,
+		"question": "\"Hawa Mahal\" is present in which city in India?",
+		"category": "gk",
+		"answer": ["Jaipur", "Udaipur", "Chhatapur", "Bhopal"],
+		"correctAnswer": "Jaipur"
+	}, {
+		"id": 364,
+		"question": "Where \"Udayagiri\" is present?",
+		"category": "gk",
+		"answer": ["Bhubaneswar", "Gwalior", "Delhi", "Bishnupur"],
+		"correctAnswer": "Bhubaneswar"
+	}, {
+		"id": 365,
+		"question": "Where \"Sun Temple Konark\" is present?",
+		"category": "gk",
+		"answer": ["Aurangabad", "Hampi", "Puri", "Pavagadh"],
+		"correctAnswer": "Puri"
+	}, {
+		"id": 366,
+		"question": "Where \"Khajuraho\" is present?",
+		"category": "gk",
+		"answer": ["Hampi", "Chennai", "Kahjuraho", "Sanchi"],
+		"correctAnswer": "Kahjuraho"
+	}, {
+		"id": 367,
+		"question": "Where \"Ajanta Caves\" is present?",
+		"category": "gk",
+		"answer": ["Leh", "Aurangabad", "Agra", "Hampi"],
+		"correctAnswer": "Aurangabad"
+	}, {
+		"id": 368,
+		"question": "Where \"Ellora Caves\" is present?",
+		"category": "gk",
+		"answer": ["Aurangabad", "Chennai", "Hampi", "Mumbai"],
+		"correctAnswer": "Aurangabad"
+	}, {
+		"id": 369,
+		"question": "Where \"Chola Temples\" is present?",
+		"category": "gk",
+		"answer": ["Pattadakal", "Chennai", "New Delhi", "Pune"],
+		"correctAnswer": "Chennai"
+	}, {
+		"id": 370,
+		"question": "Where \"Pattadakal monuments\" is present?",
+		"category": "gk",
+		"answer": ["Pattadakal", "Agra", "Hyderabad", "Leh"],
+		"correctAnswer": "Pattadakal"
+	}, {
+		"id": 371,
+		"question": "Where \"Statue of Unity\" is present?",
+		"category": "gk",
+		"answer": ["Kevadiya", "Navsari", "Surat", "Pune"],
+		"correctAnswer": "Kevadiya"
+	}, {
+		"id": 372,
+		"question": "Where \"Rajarani Temple\" is present?",
+		"category": "gk",
+		"answer": ["Alibag", "Bhubaneswar", "Pune", "Hyderabad"],
+		"correctAnswer": "Bhubaneswar"
+	}, {
+		"id": 373,
+		"question": "Where \"Kolaba Fort\" is present?",
+		"category": "gk",
+		"answer": ["Goa", "Vaishali", "Alibag", "Pune"],
+		"correctAnswer": "Alibag"
+	}, {
+		"id": 374,
+		"question": "Where \"Golkonda Fort\" is present?",
+		"category": "gk",
+		"answer": ["Mumbai", "Hyderabad", "Pune", "New Delhi"],
+		"correctAnswer": "Hyderabad"
+	}, {
+		"id": 375,
+		"question": "Where \"Jageshwar Temples\" is present?",
+		"category": "gk",
+		"answer": ["Hassan", "Hampi", "Almora", "Sivasagar"],
+		"correctAnswer": "Almora"
+	}, {
+		"id": 376,
+		"question": "Where \"Rani Roopmati Mahal\" is present?",
+		"category": "gk",
+		"answer": ["Indore", "Mandu", "Lonavala", "Pune"],
+		"correctAnswer": "Mandu"
+	}, {
+		"id": 377,
+		"question": "Where \"Jahaj Mahal\" is present?",
+		"category": "gk",
+		"answer": ["Mandu", "Bhopal", "Pune", "Indore"],
+		"correctAnswer": "Mandu"
+	}, {
+		"id": 378,
+		"question": "Where \"Fort of Kalinjar\" is present?",
+		"category": "gk",
+		"answer": ["Pune", "Bhopal", "Kanpur", "Hassan"],
+		"correctAnswer": "Kanpur"
+	}, {
+		"id": 379,
+		"question": "Where \"Durga Temple\" is present?",
+		"category": "gk",
+		"answer": ["Aihole", "Hassan", "Bijapur", "Udhampur"],
+		"correctAnswer": "Aihole"
+	}, {
+		"id": 380,
+		"question": "Where \"Ibrahim Rouza\" is present?",
+		"category": "gk",
+		"answer": ["Pune", "Ajmer", "Hampi", "Bijapur"],
+		"correctAnswer": "Bijapur"
+	}, {
+		"id": 381,
+		"question": "Where \"Rambagh\" is present?",
+		"category": "gk",
+		"answer": ["Udaipur", "Agra", "Pune", "Lucknow"],
+		"correctAnswer": "Agra"
+	}, {
+		"id": 382,
+		"question": "Where \"Rani Mahar is present?",
+		"category": "gk",
+		"answer": ["Hampi", "Bharatpur", "Jhansi", "Sholapur"],
+		"correctAnswer": "Jhansi"
+	}, {
+		"id": 383,
+		"question": "Where \"Hidimba Devi Temple\" is present?",
+		"category": "gk",
+		"answer": ["Leh", "Pune", "Manali", "Goa"],
+		"correctAnswer": "Manali"
 	}]
 }
