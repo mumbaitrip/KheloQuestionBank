@@ -287,5 +287,222 @@
 		"category": "android",
 		"answer": ["Google Count Messaging", "Google Center Messaging", "Google Cloud Messaging", "None of the above"],
 		"correctAnswer": "Google Cloud Messaging"
+	}],
+	"interviewQuestions": [{
+		"id": 1,
+		"category": "android",
+		"question": "What is Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc."
+	}, {
+		"id": 2,
+		"category": "android",
+		"question": "Who is the founder of Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Andy Rubin."
+	}, {
+		"id": 3,
+		"category": "android",
+		"question": "Explain the Android application Architecture.",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Following is a list of components of Android application architecture:<br><strong>Services:</strong> Used to perform background functionalities.<br><strong>Intent:</strong> Used to perform the interconnection between activities and the data passing mechanism.<br><strong>Resource Externalization:</strong> strings and graphics.<br><strong>Notification: </strong> light, sound, icon, notification, dialog box and toast.<br><strong>Content Providers:</strong> It will share the data between applications."
+	}, {
+		"id": 4,
+		"category": "android",
+		"question": "What are the code names of android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Aestro, Blender, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwich, Jelly Bean, KitKat, Lollipop"
+	}, {
+		"id": 5,
+		"category": "android",
+		"question": "What are the advantages of Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "<strong>Open-source:</strong> It means no license, distribution and development fee.<br><br><strong>Platform-independent:</strong> It supports Windows, Mac, and Linux platforms.<br><br><strong>Supports various technologies:</strong> It supports camera, Bluetooth, wifi, speech, EDGE etc. technologies.<br><br><strong>Highly optimized Virtual Machine:</strong> Android uses a highly optimized virtual machine for mobile devices, called DVM (Dalvik Virtual Machine)."
+	}, {
+		"id": 6,
+		"category": "android",
+		"question": "Does android support other languages than java?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK."
+	}, {
+		"id": 7,
+		"category": "android",
+		"question": "What are the core building blocks of android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The core building blocks of Android are:<br><br>Activity<br>View<br>Intent<br>Service<br>Content Provider<br>Fragment etc."
+	}, {
+		"id": 8,
+		"category": "android",
+		"question": "What is activity in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Activity is like a frame or window in java that represents GUI. It represents one screen of android."
+	}, {
+		"id": 9,
+		"category": "android",
+		"question": "What are the life cycle methods of android activity?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "There are 7 life-cycle methods of activity. They are as follows:<br><br>1. onCreate()<br>2. onStart()<br>3. onResume()<br>4. onPause()<br>5. onStop()<br>6. onRestart()<br>7. onDestroy()"
+	}, {
+		"id": 10,
+		"category": "android",
+		"question": "What is intent?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are two types of intents in android:<br><br>1. Implicit Intent<br>2. Explicit Intent"
+	}, {
+		"id": 11,
+		"category": "android",
+		"question": "How are view elements identified in the android program?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "View elements can be identified using the keyword findViewById. But with view binding and data binding we can access them directly by id."
+	}, {
+		"id": 12,
+		"category": "android",
+		"question": "Define Android toast.",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user."
+	}, {
+		"id": 13,
+		"category": "android",
+		"question": "Give a list of impotent folders in android",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The following folders are declared as impotent in android:<br><br>AndroidManifest.xml<br>build.xml<br>bin/<br>src/<br>res/<br>assets/"
+	}, {
+		"id": 14,
+		"category": "android",
+		"question": "Explain the use of 'bundle' in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "We use bundles to pass the required data to various subfolders."
+	}, {
+		"id": 15,
+		"category": "android",
+		"question": "What is an application resource file?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The files which can be injected for the building up of a process are called as application resource file."
+	}, {
+		"id": 16,
+		"category": "android",
+		"question": "How are layouts placed in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Layouts in Android are placed as XML files."
+	}, {
+		"id": 17,
+		"category": "android",
+		"question": "Where are layouts placed in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Layouts in Android are placed in the layout folder."
+	}, {
+		"id": 18,
+		"category": "android",
+		"question": "What is the implicit intent in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The Implicit intent is used to invoke the system components."
+	}, {
+		"id": 19,
+		"category": "android",
+		"question": "What is explicit intent in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "An explicit intent is used to invoke the activity class."
+	}, {
+		"id": 20,
+		"category": "android",
+		"question": "How to call another activity in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Intent i = new Intent(getApplicationContext(), ActivityTwo.class);   <br>startActivity(i);"
+	}, {
+		"id": 21,
+		"category": "android",
+		"question": "What is service in android?",
+		"referenceLink": "https://www.javatpoint.com/android-service-tutorial",
+		"answer": "A service is a component that runs in the background. It is used to play music, handle network transaction, etc."
+	}, {
+		"id": 22,
+		"category": "android",
+		"question": "What is the name of the database used in android?",
+		"referenceLink": "https://www.javatpoint.com/android-sqlite-tutorial",
+		"answer": "<strong>SQLite:</strong> An opensource and lightweight relational database for mobile devices."
+	}, {
+		"id": 23,
+		"category": "android",
+		"question": "What is AAPT?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "AAPT is an acronym for android asset packaging tool. It handles the packaging process."
+	}, {
+		"id": 24,
+		"category": "android",
+		"question": "What is a content provider?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "A content provider is used to share information between Android applications."
+	}, {
+		"id": 25,
+		"category": "android",
+		"question": "What is fragment?",
+		"referenceLink": "https://developer.android.com/guide/fragments",
+		"answer": "A Fragment represents a reusable portion of your app's UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment."
+	}, {
+		"id": 26,
+		"category": "android",
+		"question": "What is ADB?",
+		"referenceLink": "https://developer.android.com/studio/command-line/adb",
+		"answer": "ADB stands for Android Debug Bridge. It is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device."
+	}, {
+		"id": 27,
+		"category": "android",
+		"question": "What is the Google Android SDK?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes."
+	}, {
+		"id": 28,
+		"category": "android",
+		"question": "Name the dialog box which is supported by Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Alert Dialog<br>Progress Dialog<br>Date Picker Dialog<br>Time picker Dialog"
+	}, {
+		"id": 29,
+		"category": "android",
+		"question": "Define Android Architecture",
+		"referenceLink": "https://www.geeksforgeeks.org/android-architecture/",
+		"answer": "Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.<br><br>The main components of android architecture are following:-<br><br>Applications<br>Application Framework<br>Android Runtime<br>Platform Libraries<br>Linux Kernel"
+	}, {
+		"id": 30,
+		"category": "android",
+		"question": "What do you mean by a drawable folder in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc."
+	}, {
+		"id": 31,
+		"category": "android",
+		"question": "What is a singleton class in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "A singleton class is a class which can create only an object that can be shared by all other classes."
+	}, {
+		"id": 32,
+		"category": "android",
+		"question": "What is application Widgets in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Application widgets are miniature application views that can be embedded in other applications and receive periodic updates."
+	}, {
+		"id": 33,
+		"category": "android",
+		"question": "What is nine-patch images tool in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "We can change bitmap images into nine sections with four corners, four edges, and an axis."
+	}, {
+		"id": 34,
+		"category": "android",
+		"question": "What is ADT in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "ADT stands for Android Development Tool. It is used to develop the applications and test the applications."
+	}, {
+		"id": 35,
+		"category": "android",
+		"question": "Describe the Android Framework",
+		"referenceLink": "",
+		"answer": "The Android Framework is an important aspect of the Android Architecture. Here you can find all the classes and methods that developers would need in order to write applications on the Android environment."
+	}, {
+		"id": 36,
+		"category": "android",
+		"question": "Differentiate Activities from Services",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Activities can be closed, or terminated anytime the user wishes. On the other hand, services are designed to run behind the scenes, and can act independently. Most services run continuously, regardless of whether there are certain or no activities being executed."
 	}]
 }
