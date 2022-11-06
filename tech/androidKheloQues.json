@@ -289,334 +289,334 @@
 		"correctAnswer": "Google Cloud Messaging"
 	}],
 	"interviewQuestions": [{
-	"id": 1,
-	"category": "android",
-	"question": "What is Android?",
-	"referenceLink": "https://en.wikipedia.org/wiki/Android_(operating_system)",
-	"answer": "<p><strong>Android</strong>&nbsp;is a&nbsp;<a href='https://en.wikipedia.org/wiki/Mobile_operating_system' title='Mobile operating system'>mobile operating system</a>&nbsp;based on a modified version of the&nbsp;<a href='https://en.wikipedia.org/wiki/Linux_kernel' title='Linux kernel'>Linux kernel</a>&nbsp;and other&nbsp;<a href='https://en.wikipedia.org/wiki/Open-source_software' title='Open-source software'>open-source</a>&nbsp;software, designed primarily for&nbsp;<a href='https://en.wikipedia.org/wiki/Touchscreen' title='Touchscreen'>touchscreen</a>&nbsp;mobile devices such as&nbsp;<a href='https://en.wikipedia.org/wiki/Smartphone' title='Smartphone'>smartphones</a>&nbsp;and&nbsp;<a href='https://en.wikipedia.org/wiki/Tablet_computer' title='Tablet computer'>tablets</a>. Android is developed by a consortium of developers known as the&nbsp;<a href='https://en.wikipedia.org/wiki/Open_Handset_Alliance' title='Open Handset Alliance'>Open Handset Alliance</a>&nbsp;and commercially sponsored by&nbsp;<a href='https://en.wikipedia.org/wiki/Google' title='Google'>Google</a>. It was unveiled in November 2007, with the first commercial Android device, the&nbsp;<a href='https://en.wikipedia.org/wiki/HTC_Dream' title='HTC Dream'>HTC Dream</a>, being launched in September 2008.</p>"
-}, {
-	"id": 2,
-	"category": "android",
-	"question": "Who is the founder of Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Andy Rubin."
-}, {
-	"id": 3,
-	"category": "android",
-	"question": "Explain the Android application Architecture.",
-	"referenceLink": "https://www.geeksforgeeks.org/android-architecture/",
-	"answer": "<p>Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.</p><p>Among all the components Linux Kernel provides main functionality of operating system functions to smartphones and Dalvik Virtual Machine (DVM) provide platform for running an android application.</p><p>The main components of android architecture are following:-</p><ul><li>Applications</li><li>Application Framework</li><li>Android Runtime</li><li>Platform Libraries</li><li>Linux Kernel</li></ul>"
-}, {
-	"id": 4,
-	"category": "android",
-	"question": "What are the code names of android?",
-	"answer": "<ul><li>Aestro</li><li>Blender</li><li>Cupcake</li><li>Donut</li><li>Eclair</li><li>Froyo</li><li>Gingerbread</li><li>Honeycomb</li><li>Ice Cream Sandwich</li><li>Jelly Bean</li><li>KitKat</li><li>Lollipop</li><li>Marshmallow</li><li>Nougat</li><li>Oreo</li><li>Pie</li></ul>",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions"
-}, {
-	"id": 5,
-	"category": "android",
-	"question": "What are the advantages of Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "<strong>Open-source:</strong> It means no license, distribution and development fee.<br><br><strong>Platform-independent:</strong> It supports Windows, Mac, and Linux platforms.<br><br><strong>Supports various technologies:</strong> It supports camera, Bluetooth, wifi, speech, EDGE etc. technologies.<br><br><strong>Highly optimized Virtual Machine:</strong> Android uses a highly optimized virtual machine for mobile devices, called DVM (Dalvik Virtual Machine)."
-}, {
-	"id": 6,
-	"category": "android",
-	"question": "Does android support other languages than java?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK."
-}, {
-	"id": 7,
-	"category": "android",
-	"question": "What are the core building blocks of android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "The core building blocks of Android are:<br><br>Activity<br>View<br>Intent<br>Service<br>Content Provider<br>Fragment etc."
-}, {
-	"id": 8,
-	"category": "android",
-	"question": "What is activity in Android?",
-	"referenceLink": "https://developer.android.com/guide/components/activities/activity-lifecycle",
-	"answer": "Activity is like a frame or window in java that represents GUI. It represents one screen of android."
-}, {
-	"id": 9,
-	"category": "android",
-	"question": "What are the life cycle methods of android activity?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "There are 7 life-cycle methods of activity. They are as follows:<br><br>1. onCreate()<br>2. onStart()<br>3. onResume()<br>4. onPause()<br>5. onStop()<br>6. onRestart()<br>7. onDestroy()"
-}, {
-	"id": 10,
-	"category": "android",
-	"question": "What is intent?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are two types of intents in android:<br><br>1. Implicit Intent<br>2. Explicit Intent"
-}, {
-	"id": 11,
-	"category": "android",
-	"question": "How are view elements identified in the android program?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "View elements can be identified using the keyword findViewById. But with view binding and data binding we can access them directly by id."
-}, {
-	"id": 12,
-	"category": "android",
-	"question": "Define Android toast.",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user."
-}, {
-	"id": 13,
-	"category": "android",
-	"question": "Give a list of impotent folders in android",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "The following folders are declared as impotent in android:<br><br>AndroidManifest.xml<br>build.xml<br>bin/<br>src/<br>res/<br>assets/"
-}, {
-	"id": 14,
-	"category": "android",
-	"question": "Explain the use of 'bundle' in android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "We use bundles to pass the required data to various subfolders."
-}, {
-	"id": 15,
-	"category": "android",
-	"question": "What is an application resource file?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "The files which can be injected for the building up of a process are called as application resource file."
-}, {
-	"id": 16,
-	"category": "android",
-	"question": "How are layouts placed in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Layouts in Android are placed as XML files."
-}, {
-	"id": 17,
-	"category": "android",
-	"question": "Where are layouts placed in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Layouts in Android are placed in the layout folder."
-}, {
-	"id": 18,
-	"category": "android",
-	"question": "What is the implicit intent in android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "The Implicit intent is used to invoke the system components."
-}, {
-	"id": 19,
-	"category": "android",
-	"question": "What is explicit intent in android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "An explicit intent is used to invoke the activity class."
-}, {
-	"id": 20,
-	"category": "android",
-	"question": "How to call another activity in android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Intent i = new Intent(getApplicationContext(), ActivityTwo.class);   <br>startActivity(i);"
-}, {
-	"id": 21,
-	"category": "android",
-	"question": "What is service in android?",
-	"referenceLink": "https://www.javatpoint.com/android-service-tutorial",
-	"answer": "A service is a component that runs in the background. It is used to play music, handle network transaction, etc."
-}, {
-	"id": 22,
-	"category": "android",
-	"question": "What is the name of the database used in android?",
-	"referenceLink": "https://www.javatpoint.com/android-sqlite-tutorial",
-	"answer": "<strong>SQLite:</strong> An opensource and lightweight relational database for mobile devices."
-}, {
-	"id": 23,
-	"category": "android",
-	"question": "What is AAPT?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "AAPT is an acronym for android asset packaging tool. It handles the packaging process."
-}, {
-	"id": 24,
-	"category": "android",
-	"question": "What is a content provider?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "A content provider is used to share information between Android applications."
-}, {
-	"id": 25,
-	"category": "android",
-	"question": "What is fragment?",
-	"referenceLink": "https://developer.android.com/guide/fragments",
-	"answer": "A Fragment represents a reusable portion of your app's UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment."
-}, {
-	"id": 26,
-	"category": "android",
-	"question": "What is ADB?",
-	"referenceLink": "https://developer.android.com/studio/command-line/adb",
-	"answer": "ADB stands for Android Debug Bridge. It is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device."
-}, {
-	"id": 27,
-	"category": "android",
-	"question": "What is the Google Android SDK?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes."
-}, {
-	"id": 28,
-	"category": "android",
-	"question": "Name the dialog box which is supported by Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Alert Dialog<br>Progress Dialog<br>Date Picker Dialog<br>Time picker Dialog"
-}, {
-	"id": 29,
-	"category": "android",
-	"question": "Define Android Architecture",
-	"referenceLink": "https://www.geeksforgeeks.org/android-architecture/",
-	"answer": "Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.<br><br>The main components of android architecture are following:-<br><br>Applications<br>Application Framework<br>Android Runtime<br>Platform Libraries<br>Linux Kernel"
-}, {
-	"id": 30,
-	"category": "android",
-	"question": "What do you mean by a drawable folder in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc."
-}, {
-	"id": 31,
-	"category": "android",
-	"question": "What is a singleton class in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "A singleton class is a class which can create only an object that can be shared by all other classes."
-}, {
-	"id": 32,
-	"category": "android",
-	"question": "What is application Widgets in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Application widgets are miniature application views that can be embedded in other applications and receive periodic updates."
-}, {
-	"id": 33,
-	"category": "android",
-	"question": "What is nine-patch images tool in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "We can change bitmap images into nine sections with four corners, four edges, and an axis."
-}, {
-	"id": 34,
-	"category": "android",
-	"question": "What is ADT in Android?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "ADT stands for Android Development Tool. It is used to develop the applications and test the applications."
-}, {
-	"id": 35,
-	"category": "android",
-	"question": "Describe the Android Framework",
-	"referenceLink": "",
-	"answer": "The Android Framework is an important aspect of the Android Architecture. Here you can find all the classes and methods that developers would need in order to write applications on the Android environment."
-}, {
-	"id": 36,
-	"category": "android",
-	"question": "Differentiate Activities from Services",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "Activities can be closed, or terminated anytime the user wishes. On the other hand, services are designed to run behind the scenes, and can act independently. Most services run continuously, regardless of whether there are certain or no activities being executed."
-}, {
-	"id": 37,
-	"category": "android",
-	"question": "What is Cold Start?",
-	"referenceLink": "https://developer.android.com/topic/performance/vitals/launch-time#cold",
-	"answer": "A cold start refers to an app’s starting from scratch: the system’s process has not, until this start, created the app’s process. Cold starts happen in cases such as your app’s being launched for the first time since the device booted, or since the system killed the app. This type of start presents the greatest challenge in terms of minimizing startup time, because the system and app have more work to do than in the other launch states.<br><br>At the beginning of a cold start, the system has three tasks. These tasks are:<br><br>1. Loading and launching the app.<br>2. Displaying a blank starting window for the app immediately after launch.<br>3. Create the app process.<br><br>As soon as the system creates the app process, the app process is responsible for the next stages:<br><br>1. Creating the app object.<br>2. Launching the main thread.<br>3. Creating the main activity.<br>4. Inflating views.<br>5. Laying out the screen.<br>6. Performing the initial draw."
-}, {
-	"id": 38,
-	"category": "android",
-	"question": "What is Worm Start?",
-	"referenceLink": "https://developer.android.com/topic/performance/vitals/launch-time#warm",
-	"answer": "<p>A warm start encompasses some subset of the operations that take place during a cold start; at the same time, it represents more overhead than a hot start. There are many potential states that could be considered warm starts. For instance:</p><ul><li><p>The user backs out of your app, but then re-launches it. The process may have continued to run, but the app must recreate the activity from scratch via a call to&nbsp;<code>onCreate()</code>.</p></li><li><p>The system evicts your app from memory, and then the user re-launches it. The process and the activity need to be restarted, but the task can benefit somewhat from the saved instance state bundle passed into&nbsp;<code>onCreate()</code>.</p></li></ul>"
-}, {
-	"id": 39,
-	"category": "android",
-	"question": "What is Hot Start?",
-	"referenceLink": "https://developer.android.com/topic/performance/vitals/launch-time#hot",
-	"answer": "A hot start of your application is much simpler and lower-overhead than a cold start. In a hot start, all the system does is bring your activity to the foreground. If all of your application’s activities are still resident in memory, then the app can avoid having to repeat object initialization, layout inflation, and rendering."
-}, {
-	"id": 40,
-	"category": "android",
-	"question": "What is WebView?",
-	"referenceLink": "https://www.tutorialspoint.com/android/android_webview_layout.htm",
-	"answer": "WebView is a view that display web pages inside your application. You can also specify HTML string and can show it inside your application using WebView. WebView makes turns your application to a web application."
-}, {
-	"id": 41,
-	"category": "android",
-	"question": "Android Services.",
-	"referenceLink": "https://www.geeksforgeeks.org/services-in-android-with-example/",
-	"answer": "<p>Services in&nbsp;Android are a special component that facilitates an application to run in the background in order to perform long-running operation tasks. The prime aim of a service is to ensure that the application remains active in the background so that the user can operate multiple applications at the same time. A user-interface is not desirable for android services as it is designed to operate long-running processes without any user intervention. A service can run continuously in the background even if the application is closed or the user switches to another application.</p><p>&nbsp;</p><p>Types of <strong>Services:</strong></p><p>1. Foreground Services:&nbsp;Services that notify the user about its ongoing operations are termed as Foreground Services. Users can interact with the service by the notifications provided about the ongoing task. Such as in downloading a file, the user can keep track of the progress in downloading and can also pause and resume the process.</p><p>2. Background Services: Background services do not require any user intervention. These services do not notify the user about ongoing background tasks and users also cannot access them. The process like schedule syncing of data or storing of data fall under this service.</p><p>3. Bound Services:&nbsp;This type of android service allows the components of the application like activity to bound themselves with it. Bound services perform their task as long as any application component is bound to it. More than one component is allowed to bind themselves with a service at a time. In order to bind an application component with a service&nbsp;<strong>bindService()</strong>&nbsp;method is used.&nbsp;</p>"
-}, {
-	"id": 42,
-	"category": "android",
-	"question": "What is Broadcast Receivers?",
-	"referenceLink": "https://www.geeksforgeeks.org/broadcast-receiver-in-android-with-example/",
-	"answer": "<p>Broadcast in android is the system-wide events that can occur when the device starts, when a message is received on the device or when incoming calls are received, or when a device goes to airplane mode, etc. Broadcast Receivers are used to respond to these system-wide events. Broadcast Receivers allow us to register for the system and application events, and when that event happens, then the register receivers get notified. There are mainly two types of Broadcast Receivers: Static Broadcast Receivers: These types of Receivers are declared in the manifest file and works even if the app is closed. Dynamic Broadcast Receivers: These types of receivers work only if the app is active or minimized. Since from API Level 26, most of the broadcast can only be caught by the dynamic receiver</p>"
-}, {
-	"id": 43,
-	"category": "android",
-	"question": "Whate is Intent Filter",
-	"referenceLink": "https://developer.android.com/guide/topics/manifest/intent-filter-element",
-	"answer": "Specifies the types of intents that an activity, service, or broadcast receiver can respond to. An intent filter declares the capabilities of its parent component — what an activity or service can do and what types of broadcasts a receiver can handle. It opens the component to receiving intents of the advertised type, while filtering out those that are not meaningful for the component.<br>Most of the contents of the filter are described by its <action>, <category>, and <data> subelements."
-}, {
-	"id": 44,
-	"category": "android",
-	"question": "What is ANR?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "<p>When the UI thread of an Android app is blocked for too long, an <strong>&quot;Application Not Responding&quot;</strong> (ANR) error is triggered. If the app is in the foreground, the system displays a dialog to the user. The ANR dialog gives the user the opportunity to force quit the app.</p><p><strong>ANRs</strong> are a problem because the app&rsquo;s main thread, which is responsible for updating the UI, can&rsquo;t process user input events or draw, causing frustration to the user.</p><p>&nbsp;</p><p>An ANR will be triggered for your app when one of the following conditions occur:</p><ul><li>While your activity is in the foreground, your app has not responded to an input event or BroadcastReceiver&nbsp;(such as key press or screen touch events) within 5 seconds.</li><li>While you do not have an activity in the foreground, your&nbsp;BroadcastReceiver hasn&#39;t finished executing within a considerable amount of time.</li></ul>"
-}, {
-	"id": 45,
-	"category": "android",
-	"question": "What is Contente Resolver",
-	"referenceLink": "https://www.androiddesignpatterns.com/2012/06/content-resolvers-and-content-providers.html",
-	"answer": "<p>The <strong>Content Resolver</strong> is the single, global instance in your application that provides access to your (and other applications&rsquo;) content providers. The Content Resolver behaves exactly as its name implies: it accepts requests from clients, and&nbsp;<em>resolves</em>&nbsp;these requests by directing them to the content provider with a distinct authority. To do this, the Content Resolver stores a mapping from authorities to <strong>Content Providers</strong>. This design is important, as it allows a simple and secure means of accessing other applications&rsquo; Content Providers.</p><p>The Content Resolver includes the <strong>CRUD</strong> (create, read, update, delete) methods corresponding to the abstract methods (insert, query, update, delete) in the Content Provider class. The Content Resolver does not know the implementation of the Content Providers it is interacting with (nor does it need to know); each method is passed an URI that specifies the Content Provider to interact with.</p>"
-}, {
-	"id": 46,
-	"category": "android",
-	"question": "What is Sticky Intent?",
-	"referenceLink": "https://medium.com/@kotiyal.abhirocks/types-of-intent-in-android-8154ad218c20",
-	"answer": "<p><strong>Sticky Intent:</strong>&nbsp;These are the Intents which sticks with Android for future broadcast listener.</p><p>Sticky Intent is also a type of Intent which allows communication between a function and a service sendStickyBroadcast(), performs a sendBroadcast(Intent) known as sticky, the&nbsp;<strong>Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter)</strong>. In all other ways, this behaves the same as sendBroadcast(Intent).</p><p>One example of a sticky broadcast sent via the operating system is ACTION_BATTERY_CHANGED. When you call registerReceiver() for that action &mdash; even with a null BroadcastReceiver &mdash; you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.</p>"
-}, {
-	"id": 47,
-	"category": "android",
-	"question": "Constraint Layout vs Relative Layout",
-	"referenceLink": "https://tutorial.eyehunts.com/android-interview-questions/differences-between-constraintlayout-relativelayout/",
-	"answer": "<p><a href='https://developer.android.com/reference/android/support/constraint/ConstraintLayout rel='noopener noreferrer' target='_blank'>ConstraintLayout</a>&nbsp;has&nbsp;<strong>flat view hierarchy</strong>&nbsp;unlike other layouts, so does&nbsp;<strong>a better performance than relative layout</strong>. Yes, this is the biggest advantage of Constraint Layout, the only single layout can handle your UI. Where in the Relative layout you needed multiple nested layouts (<a href='https://tutorial.eyehunts.com/android/android-linearlayout-tutorial-example-android-kotlin/' rel='noopener noreferrer' target='_blank'>LinearLayout</a>&nbsp;+<a href='https://tutorial.eyehunts.com/android/android-relativelayout-tutorial-example-kotlin/' rel='noopener noreferrer' target='_blank'>&nbsp;RelativeLayout</a>).</p><p>&nbsp;</p><p><strong>1. Does the ConstraintLayout have better performance than a nested Layout?</strong></p><p>&nbsp;</p><p>&nbsp;</p><p>Yes,&nbsp;<code>ConstraintLayout</code>&nbsp;has designed with performance optimization in mind, more effective, easy use, and trying to eliminate as many pass scenarios as possible. This is done by eliminating the deeply-nested view hierarchies with flat view&nbsp;hierarchies.</p><p><strong>2. Can we replace&nbsp;RelativeLayout&nbsp;with&nbsp;ConstraintLayout completly?</strong></p><p>Yes, you can completely replace RelativeLayout with ConstraintLayout.&nbsp;<code>ConstraintLayout</code>&nbsp;does all that&nbsp;<code>RelativeLayout</code>&nbsp;does, and more.</p><p><strong>3. Do&nbsp;we don&rsquo;t need to write many dimens.xml for all screen resolution to have a responsive app?</strong></p><p>It depends on what you want to do &ndash; using dimensions might still be useful, for example- &nbsp;you might want the same layout but with different margins for different sizes of devices. That time you have to add many dimen.xml resource files.</p>"
-}, {
-	"id": 48,
-	"category": "android",
-	"question": "What is Proguard in Android?",
-	"referenceLink": "https://www.geeksforgeeks.org/proguard-in-android/",
-	"answer": "<p>Proguard is a great tool for creating a production-ready application in Android. It assists us in reducing code and making apps faster. Proguard is included by default in Android Studio and can help in a variety of ways, a few of which are listed below.</p><ol><li>It obfuscates the code, which means that it changes the names to something smaller, such as A for MainViewModel. After obfuscating the app, reverse engineering becomes difficult.</li><li>It shrinks the resources, ignoring resources that are not called by our Class files, are not used in our Android app, such as images from drawable, and so on. This will significantly reduce the app&rsquo;s size. To keep your app light and fast, you should always shrink it.</li></ol>"
-}, {
-	"id": 49,
-	"category": "android",
-	"question": "What is Multidex in Android?",
-	"referenceLink": "https://blog.mindorks.com/understanding-multidex-in-android",
-	"answer": "<p>In Android, the compilers convert your source code into DEX files. This DEX file contains the compiled code used to run the app. But there is a limitation with the DEX file. The DEX file limits the total number of methods that can be referenced within a single DEX file to 64K i.e. 65,536 methods. So, you can&#39;t use more than 64K methods in a particular DEX file. These 64K methods include Android framework methods, library methods, and methods in our code also. This limit of 64K is referred to as the &quot;<strong>64K reference limit</strong>&quot;.</p><p>&nbsp;</p><p>So, if our app exceeds 65,536 methods, we will encounter a build error that indicates our app has reached the limit of the Android build architecture. The error is as follows:</p><p>&nbsp;</p><blockquote><pre> <code>Too many field references: 131000; max is 65536. You may try using --multi-dex option.</code></pre></blockquote><p>&nbsp;</p><p>Older versions of the build system report a different error, which also indicates the same problem:</p><p>&nbsp;</p><blockquote><pre> <code>Conversion to Dalvik format failed: Unable to execute dex: method ID not in [0, 0xffff]: 65536</code></pre></blockquote><p>&nbsp;</p><p>&nbsp;</p><p>Both the above error are known as&nbsp;<strong>64K reference limit&nbsp;</strong>i.e we are trying to use more than 64K methods in our code. So, here comes the role of Multidex support in our Android Project.</p>"
-}, {
-	"id": 50,
-	"category": "android",
-	"question": "Android RecyclerView?",
-	"referenceLink": "https://developer.android.com/develop/ui/views/layout/recyclerview",
-	"answer": "<p>RecyclerView makes it easy to efficiently display large sets of data. You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they&#39;re needed.</p><p>As the name implies, RecyclerView&nbsp;<em>recycles</em>&nbsp;those individual elements. When an item scrolls off the screen, RecyclerView doesn&#39;t destroy its view. Instead, RecyclerView reuses the view for new items that have scrolled onscreen. This reuse vastly improves performance, improving your app&#39;s responsiveness and reducing power consumption.</p><p><strong>Note:</strong>&nbsp;Besides being the name of the class, RecyclerView is also the name of the library. In this page,&nbsp;<code>RecyclerView</code>&nbsp;in&nbsp;<code>code font</code>&nbsp;always means the class in the RecyclerView library.</p>"
-}, {
-	"id": 51,
-	"category": "android",
-	"question": "Android Listview?",
-	"referenceLink": "https://www.geeksforgeeks.org/android-listview-in-java-with-example/",
-	"answer": "<p>A <strong>ListView</strong> is a type of&nbsp;<a href='https://developer.android.com/reference/android/widget/AdapterView' rel='noopener noreferrer nofollow' target='_blank'>AdapterView</a>&nbsp;that displays a vertical list of scroll-able views and each view is placed one below the other. Using adapter, items are inserted into the list from an array or database. For displaying the items in the list method&nbsp;<code><strong>setAdaptor()</strong></code>&nbsp;is used.&nbsp;<code><strong>setAdaptor()</strong></code>&nbsp;method conjoins an adapter with the list.</p><p>Android ListView is a ViewGroup that is used to display the list of items in multiple rows and contains an adapter that automatically inserts the items into the list.</p><p>The main purpose of the adapter is to fetch data from an array or database and insert each item that placed into the list for the desired result. So, it is the main source to pull data from strings.xml file which contains all the required strings in Java or XML files.</p>"
-}, {
-	"id": 52,
-	"category": "android",
-	"question": "What is Context on Android?",
-	"referenceLink": "https://www.tutorialspoint.com/what-is-context-on-android",
-	"answer": "it's the context of current state of the application/object. It lets newly-created objects understand what has been going on. Typically, you call it to get information regarding another part of your program (activity and package/application)."
-}, {
-	"id": 53,
-	"category": "android",
-	"question": "What are the permission protection levels in Android?",
-	"referenceLink": "",
-	"answer": "<ul><li><strong>Normal</strong>&nbsp;&mdash; A lower-risk permission that gives requesting applications access to isolated application-level features, with minimal risk to other applications, the system, or the user. The system automatically grants this type of permission to a requesting application at installation, without asking for the user&rsquo;s explicit approval.</li><li><strong>Dangerous</strong>&nbsp;&mdash; A higher-risk permission. Any dangerous permissions requested by an application may be displayed to the user and require confirmation before proceeding, or some other approach may be taken to avoid the user automatically allowing the use of such facilities.</li><li><strong>Signature</strong>&nbsp;&mdash; A permission that the system grants only if the requesting application is signed with the same certificate as the application that declared the permission. If the certificates match, the system automatically grants the permission without notifying the user or asking for the user&rsquo;s explicit approval.</li><li><strong>SignatureOrSystem</strong>&nbsp;&mdash; A permission that the system grants only to applications that are in the Android system image or that are signed with the same certificate as the application that declared the permission.</li></ul>"
-}, {
-	"id": 54,
-	"category": "android",
-	"question": "What is a JobScheduler?",
-	"referenceLink": "https://developer.android.com/reference/android/app/job/JobScheduler",
-	"answer": "<ul><li><p>The&nbsp;<strong>JobScheduler</strong>&nbsp;API performs an operation for your application when a set of predefined conditions are met (such as when a device is plugged into a power source or connected to a Wi-Fi network). This allows your app to perform the given task while being considerate of the device&#39;s battery at the cost of timing control.</p><p>Unlike the&nbsp;<strong>AlarmManager</strong>&nbsp;class, the timing isn&#39;t exact. Compared to a custom&nbsp;<strong>SyncAdapter</strong>&nbsp;or the&nbsp;<strong>AlarmManager</strong>, the JobScheduler supports batch scheduling of jobs. The Android system can combine jobs so that battery consumption is reduced. JobManager makes handling uploads easier as it handles automatically the unreliability of the network. It also survives application restarts. Here are example when you would use this job scheduler:</p></li><li>Tasks that should be done once the device is connect to a power supply</li><li>Tasks that require network access or a Wi-Fi connection.</li><li>Task that are not critical or user facing</li><li>Tasks that should be running on a regular basis as batch where the timing is not critical</li></ul>"
-}, {
-	"id": 55,
-	"category": "android",
-	"question": "What is the ViewHolder pattern? Why should we use it?",
-	"referenceLink": "https://www.javatpoint.com/android-interview-questions",
-	"answer": "<p>Every time when the adapter calls&nbsp;<code>getView()</code>&nbsp;method, the&nbsp;<code>findViewById()</code>&nbsp;method is also called. This is a very intensive work for the mobile CPU and so affects the performance of the application and the battery consumption increases.&nbsp;<strong>ViewHolder</strong>&nbsp;is a design pattern which can be applied as a way around repeated use of&nbsp;<code>findViewById()</code>.</p><p>A ViewHolder holds the reference to the id of the view resource and calls to the resource will not be required after you &quot;find&quot; them: Thus performance of the application increases.</p>"
-}]
+		"id": 1,
+		"category": "android",
+		"question": "What is Android?",
+		"referenceLink": "https://en.wikipedia.org/wiki/Android_(operating_system)",
+		"answer": "<p><strong>Android</strong>&nbsp;is a&nbsp;<a href='https://en.wikipedia.org/wiki/Mobile_operating_system' title='Mobile operating system'>mobile operating system</a>&nbsp;based on a modified version of the&nbsp;<a href='https://en.wikipedia.org/wiki/Linux_kernel' title='Linux kernel'>Linux kernel</a>&nbsp;and other&nbsp;<a href='https://en.wikipedia.org/wiki/Open-source_software' title='Open-source software'>open-source</a>&nbsp;software, designed primarily for&nbsp;<a href='https://en.wikipedia.org/wiki/Touchscreen' title='Touchscreen'>touchscreen</a>&nbsp;mobile devices such as&nbsp;<a href='https://en.wikipedia.org/wiki/Smartphone' title='Smartphone'>smartphones</a>&nbsp;and&nbsp;<a href='https://en.wikipedia.org/wiki/Tablet_computer' title='Tablet computer'>tablets</a>. Android is developed by a consortium of developers known as the&nbsp;<a href='https://en.wikipedia.org/wiki/Open_Handset_Alliance' title='Open Handset Alliance'>Open Handset Alliance</a>&nbsp;and commercially sponsored by&nbsp;<a href='https://en.wikipedia.org/wiki/Google' title='Google'>Google</a>. It was unveiled in November 2007, with the first commercial Android device, the&nbsp;<a href='https://en.wikipedia.org/wiki/HTC_Dream' title='HTC Dream'>HTC Dream</a>, being launched in September 2008.</p>"
+	}, {
+		"id": 2,
+		"category": "android",
+		"question": "Who is the founder of Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Andy Rubin."
+	}, {
+		"id": 3,
+		"category": "android",
+		"question": "Explain the Android application Architecture.",
+		"referenceLink": "https://www.geeksforgeeks.org/android-architecture/",
+		"answer": "<p>Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.</p><p>Among all the components Linux Kernel provides main functionality of operating system functions to smartphones and Dalvik Virtual Machine (DVM) provide platform for running an android application.</p><p>The main components of android architecture are following:-</p><ul><li>Applications</li><li>Application Framework</li><li>Android Runtime</li><li>Platform Libraries</li><li>Linux Kernel</li></ul>"
+	}, {
+		"id": 4,
+		"category": "android",
+		"question": "What are the code names of android?",
+		"answer": "<ul><li>Aestro</li><li>Blender</li><li>Cupcake</li><li>Donut</li><li>Eclair</li><li>Froyo</li><li>Gingerbread</li><li>Honeycomb</li><li>Ice Cream Sandwich</li><li>Jelly Bean</li><li>KitKat</li><li>Lollipop</li><li>Marshmallow</li><li>Nougat</li><li>Oreo</li><li>Pie</li></ul>",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions"
+	}, {
+		"id": 5,
+		"category": "android",
+		"question": "What are the advantages of Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "<strong>Open-source:</strong> It means no license, distribution and development fee.<br><br><strong>Platform-independent:</strong> It supports Windows, Mac, and Linux platforms.<br><br><strong>Supports various technologies:</strong> It supports camera, Bluetooth, wifi, speech, EDGE etc. technologies.<br><br><strong>Highly optimized Virtual Machine:</strong> Android uses a highly optimized virtual machine for mobile devices, called DVM (Dalvik Virtual Machine)."
+	}, {
+		"id": 6,
+		"category": "android",
+		"question": "Does android support other languages than java?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK."
+	}, {
+		"id": 7,
+		"category": "android",
+		"question": "What are the core building blocks of android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The core building blocks of Android are:<br><br>Activity<br>View<br>Intent<br>Service<br>Content Provider<br>Fragment etc."
+	}, {
+		"id": 8,
+		"category": "android",
+		"question": "What is activity in Android?",
+		"referenceLink": "https://developer.android.com/guide/components/activities/activity-lifecycle",
+		"answer": "Activity is like a frame or window in java that represents GUI. It represents one screen of android."
+	}, {
+		"id": 9,
+		"category": "android",
+		"question": "What are the life cycle methods of android activity?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "There are 7 life-cycle methods of activity. They are as follows:<br><br>1. onCreate()<br>2. onStart()<br>3. onResume()<br>4. onPause()<br>5. onStop()<br>6. onRestart()<br>7. onDestroy()"
+	}, {
+		"id": 10,
+		"category": "android",
+		"question": "What is intent?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are two types of intents in android:<br><br>1. Implicit Intent<br>2. Explicit Intent"
+	}, {
+		"id": 11,
+		"category": "android",
+		"question": "How are view elements identified in the android program?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "View elements can be identified using the keyword findViewById. But with view binding and data binding we can access them directly by id."
+	}, {
+		"id": 12,
+		"category": "android",
+		"question": "Define Android toast.",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user."
+	}, {
+		"id": 13,
+		"category": "android",
+		"question": "Give a list of impotent folders in android",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The following folders are declared as impotent in android:<br><br>AndroidManifest.xml<br>build.xml<br>bin/<br>src/<br>res/<br>assets/"
+	}, {
+		"id": 14,
+		"category": "android",
+		"question": "Explain the use of 'bundle' in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "We use bundles to pass the required data to various subfolders."
+	}, {
+		"id": 15,
+		"category": "android",
+		"question": "What is an application resource file?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The files which can be injected for the building up of a process are called as application resource file."
+	}, {
+		"id": 16,
+		"category": "android",
+		"question": "How are layouts placed in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Layouts in Android are placed as XML files."
+	}, {
+		"id": 17,
+		"category": "android",
+		"question": "Where are layouts placed in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Layouts in Android are placed in the layout folder."
+	}, {
+		"id": 18,
+		"category": "android",
+		"question": "What is the implicit intent in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The Implicit intent is used to invoke the system components."
+	}, {
+		"id": 19,
+		"category": "android",
+		"question": "What is explicit intent in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "An explicit intent is used to invoke the activity class."
+	}, {
+		"id": 20,
+		"category": "android",
+		"question": "How to call another activity in android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Intent i = new Intent(getApplicationContext(), ActivityTwo.class);   <br>startActivity(i);"
+	}, {
+		"id": 21,
+		"category": "android",
+		"question": "What is service in android?",
+		"referenceLink": "https://www.javatpoint.com/android-service-tutorial",
+		"answer": "A service is a component that runs in the background. It is used to play music, handle network transaction, etc."
+	}, {
+		"id": 22,
+		"category": "android",
+		"question": "What is the name of the database used in android?",
+		"referenceLink": "https://www.javatpoint.com/android-sqlite-tutorial",
+		"answer": "<strong>SQLite:</strong> An opensource and lightweight relational database for mobile devices."
+	}, {
+		"id": 23,
+		"category": "android",
+		"question": "What is AAPT?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "AAPT is an acronym for android asset packaging tool. It handles the packaging process."
+	}, {
+		"id": 24,
+		"category": "android",
+		"question": "What is a content provider?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "A content provider is used to share information between Android applications."
+	}, {
+		"id": 25,
+		"category": "android",
+		"question": "What is fragment?",
+		"referenceLink": "https://developer.android.com/guide/fragments",
+		"answer": "A Fragment represents a reusable portion of your app's UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own--they must be hosted by an activity or another fragment."
+	}, {
+		"id": 26,
+		"category": "android",
+		"question": "What is ADB?",
+		"referenceLink": "https://developer.android.com/studio/command-line/adb",
+		"answer": "ADB stands for Android Debug Bridge. It is a versatile command-line tool that lets you communicate with a device. The adb command facilitates a variety of device actions, such as installing and debugging apps, and it provides access to a Unix shell that you can use to run a variety of commands on a device."
+	}, {
+		"id": 27,
+		"category": "android",
+		"question": "What is the Google Android SDK?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes."
+	}, {
+		"id": 28,
+		"category": "android",
+		"question": "Name the dialog box which is supported by Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Alert Dialog<br>Progress Dialog<br>Date Picker Dialog<br>Time picker Dialog"
+	}, {
+		"id": 29,
+		"category": "android",
+		"question": "Define Android Architecture",
+		"referenceLink": "https://www.geeksforgeeks.org/android-architecture/",
+		"answer": "Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.<br><br>The main components of android architecture are following:-<br><br>Applications<br>Application Framework<br>Android Runtime<br>Platform Libraries<br>Linux Kernel"
+	}, {
+		"id": 30,
+		"category": "android",
+		"question": "What do you mean by a drawable folder in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "In Android, a drawable folder is compiled a visual resource that can use as a background, banners, icons, splash screen, etc."
+	}, {
+		"id": 31,
+		"category": "android",
+		"question": "What is a singleton class in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "A singleton class is a class which can create only an object that can be shared by all other classes."
+	}, {
+		"id": 32,
+		"category": "android",
+		"question": "What is application Widgets in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Application widgets are miniature application views that can be embedded in other applications and receive periodic updates."
+	}, {
+		"id": 33,
+		"category": "android",
+		"question": "What is nine-patch images tool in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "We can change bitmap images into nine sections with four corners, four edges, and an axis."
+	}, {
+		"id": 34,
+		"category": "android",
+		"question": "What is ADT in Android?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "ADT stands for Android Development Tool. It is used to develop the applications and test the applications."
+	}, {
+		"id": 35,
+		"category": "android",
+		"question": "Describe the Android Framework",
+		"referenceLink": "",
+		"answer": "The Android Framework is an important aspect of the Android Architecture. Here you can find all the classes and methods that developers would need in order to write applications on the Android environment."
+	}, {
+		"id": 36,
+		"category": "android",
+		"question": "Differentiate Activities from Services",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "Activities can be closed, or terminated anytime the user wishes. On the other hand, services are designed to run behind the scenes, and can act independently. Most services run continuously, regardless of whether there are certain or no activities being executed."
+	}, {
+		"id": 37,
+		"category": "android",
+		"question": "What is Cold Start?",
+		"referenceLink": "https://developer.android.com/topic/performance/vitals/launch-time#cold",
+		"answer": "A cold start refers to an app’s starting from scratch: the system’s process has not, until this start, created the app’s process. Cold starts happen in cases such as your app’s being launched for the first time since the device booted, or since the system killed the app. This type of start presents the greatest challenge in terms of minimizing startup time, because the system and app have more work to do than in the other launch states.<br><br>At the beginning of a cold start, the system has three tasks. These tasks are:<br><br>1. Loading and launching the app.<br>2. Displaying a blank starting window for the app immediately after launch.<br>3. Create the app process.<br><br>As soon as the system creates the app process, the app process is responsible for the next stages:<br><br>1. Creating the app object.<br>2. Launching the main thread.<br>3. Creating the main activity.<br>4. Inflating views.<br>5. Laying out the screen.<br>6. Performing the initial draw."
+	}, {
+		"id": 38,
+		"category": "android",
+		"question": "What is Worm Start?",
+		"referenceLink": "https://developer.android.com/topic/performance/vitals/launch-time#warm",
+		"answer": "<p>A warm start encompasses some subset of the operations that take place during a cold start; at the same time, it represents more overhead than a hot start. There are many potential states that could be considered warm starts. For instance:</p><ul><li><p>The user backs out of your app, but then re-launches it. The process may have continued to run, but the app must recreate the activity from scratch via a call to&nbsp;<code>onCreate()</code>.</p></li><li><p>The system evicts your app from memory, and then the user re-launches it. The process and the activity need to be restarted, but the task can benefit somewhat from the saved instance state bundle passed into&nbsp;<code>onCreate()</code>.</p></li></ul>"
+	}, {
+		"id": 39,
+		"category": "android",
+		"question": "What is Hot Start?",
+		"referenceLink": "https://developer.android.com/topic/performance/vitals/launch-time#hot",
+		"answer": "A hot start of your application is much simpler and lower-overhead than a cold start. In a hot start, all the system does is bring your activity to the foreground. If all of your application’s activities are still resident in memory, then the app can avoid having to repeat object initialization, layout inflation, and rendering."
+	}, {
+		"id": 40,
+		"category": "android",
+		"question": "What is WebView?",
+		"referenceLink": "https://www.tutorialspoint.com/android/android_webview_layout.htm",
+		"answer": "WebView is a view that display web pages inside your application. You can also specify HTML string and can show it inside your application using WebView. WebView makes turns your application to a web application."
+	}, {
+		"id": 41,
+		"category": "android",
+		"question": "Android Services.",
+		"referenceLink": "https://www.geeksforgeeks.org/services-in-android-with-example/",
+		"answer": "<p>Services in&nbsp;Android are a special component that facilitates an application to run in the background in order to perform long-running operation tasks. The prime aim of a service is to ensure that the application remains active in the background so that the user can operate multiple applications at the same time. A user-interface is not desirable for android services as it is designed to operate long-running processes without any user intervention. A service can run continuously in the background even if the application is closed or the user switches to another application.</p><p>&nbsp;</p><p>Types of <strong>Services:</strong></p><p>1. Foreground Services:&nbsp;Services that notify the user about its ongoing operations are termed as Foreground Services. Users can interact with the service by the notifications provided about the ongoing task. Such as in downloading a file, the user can keep track of the progress in downloading and can also pause and resume the process.</p><p>2. Background Services: Background services do not require any user intervention. These services do not notify the user about ongoing background tasks and users also cannot access them. The process like schedule syncing of data or storing of data fall under this service.</p><p>3. Bound Services:&nbsp;This type of android service allows the components of the application like activity to bound themselves with it. Bound services perform their task as long as any application component is bound to it. More than one component is allowed to bind themselves with a service at a time. In order to bind an application component with a service&nbsp;<strong>bindService()</strong>&nbsp;method is used.&nbsp;</p>"
+	}, {
+		"id": 42,
+		"category": "android",
+		"question": "What is Broadcast Receivers?",
+		"referenceLink": "https://www.geeksforgeeks.org/broadcast-receiver-in-android-with-example/",
+		"answer": "<p>Broadcast in android is the system-wide events that can occur when the device starts, when a message is received on the device or when incoming calls are received, or when a device goes to airplane mode, etc. Broadcast Receivers are used to respond to these system-wide events. Broadcast Receivers allow us to register for the system and application events, and when that event happens, then the register receivers get notified. There are mainly two types of Broadcast Receivers: Static Broadcast Receivers: These types of Receivers are declared in the manifest file and works even if the app is closed. Dynamic Broadcast Receivers: These types of receivers work only if the app is active or minimized. Since from API Level 26, most of the broadcast can only be caught by the dynamic receiver</p>"
+	}, {
+		"id": 43,
+		"category": "android",
+		"question": "Whate is Intent Filter",
+		"referenceLink": "https://developer.android.com/guide/topics/manifest/intent-filter-element",
+		"answer": "Specifies the types of intents that an activity, service, or broadcast receiver can respond to. An intent filter declares the capabilities of its parent component — what an activity or service can do and what types of broadcasts a receiver can handle. It opens the component to receiving intents of the advertised type, while filtering out those that are not meaningful for the component.<br>Most of the contents of the filter are described by its <action>, <category>, and <data> subelements."
+	}, {
+		"id": 44,
+		"category": "android",
+		"question": "What is ANR?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "<p>When the UI thread of an Android app is blocked for too long, an <strong>&quot;Application Not Responding&quot;</strong> (ANR) error is triggered. If the app is in the foreground, the system displays a dialog to the user. The ANR dialog gives the user the opportunity to force quit the app.</p><p><strong>ANRs</strong> are a problem because the app&rsquo;s main thread, which is responsible for updating the UI, can&rsquo;t process user input events or draw, causing frustration to the user.</p><p>&nbsp;</p><p>An ANR will be triggered for your app when one of the following conditions occur:</p><ul><li>While your activity is in the foreground, your app has not responded to an input event or BroadcastReceiver&nbsp;(such as key press or screen touch events) within 5 seconds.</li><li>While you do not have an activity in the foreground, your&nbsp;BroadcastReceiver hasn&#39;t finished executing within a considerable amount of time.</li></ul>"
+	}, {
+		"id": 45,
+		"category": "android",
+		"question": "What is Contente Resolver",
+		"referenceLink": "https://www.androiddesignpatterns.com/2012/06/content-resolvers-and-content-providers.html",
+		"answer": "<p>The <strong>Content Resolver</strong> is the single, global instance in your application that provides access to your (and other applications&rsquo;) content providers. The Content Resolver behaves exactly as its name implies: it accepts requests from clients, and&nbsp;<em>resolves</em>&nbsp;these requests by directing them to the content provider with a distinct authority. To do this, the Content Resolver stores a mapping from authorities to <strong>Content Providers</strong>. This design is important, as it allows a simple and secure means of accessing other applications&rsquo; Content Providers.</p><p>The Content Resolver includes the <strong>CRUD</strong> (create, read, update, delete) methods corresponding to the abstract methods (insert, query, update, delete) in the Content Provider class. The Content Resolver does not know the implementation of the Content Providers it is interacting with (nor does it need to know); each method is passed an URI that specifies the Content Provider to interact with.</p>"
+	}, {
+		"id": 46,
+		"category": "android",
+		"question": "What is Sticky Intent?",
+		"referenceLink": "https://medium.com/@kotiyal.abhirocks/types-of-intent-in-android-8154ad218c20",
+		"answer": "<p><strong>Sticky Intent:</strong>&nbsp;These are the Intents which sticks with Android for future broadcast listener.</p><p>Sticky Intent is also a type of Intent which allows communication between a function and a service sendStickyBroadcast(), performs a sendBroadcast(Intent) known as sticky, the&nbsp;<strong>Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter)</strong>. In all other ways, this behaves the same as sendBroadcast(Intent).</p><p>One example of a sticky broadcast sent via the operating system is ACTION_BATTERY_CHANGED. When you call registerReceiver() for that action &mdash; even with a null BroadcastReceiver &mdash; you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.</p>"
+	}, {
+		"id": 47,
+		"category": "android",
+		"question": "Constraint Layout vs Relative Layout",
+		"referenceLink": "https://tutorial.eyehunts.com/android-interview-questions/differences-between-constraintlayout-relativelayout/",
+		"answer": "<p><a href='https://developer.android.com/reference/android/support/constraint/ConstraintLayout rel='noopener noreferrer' target='_blank'>ConstraintLayout</a>&nbsp;has&nbsp;<strong>flat view hierarchy</strong>&nbsp;unlike other layouts, so does&nbsp;<strong>a better performance than relative layout</strong>. Yes, this is the biggest advantage of Constraint Layout, the only single layout can handle your UI. Where in the Relative layout you needed multiple nested layouts (<a href='https://tutorial.eyehunts.com/android/android-linearlayout-tutorial-example-android-kotlin/' rel='noopener noreferrer' target='_blank'>LinearLayout</a>&nbsp;+<a href='https://tutorial.eyehunts.com/android/android-relativelayout-tutorial-example-kotlin/' rel='noopener noreferrer' target='_blank'>&nbsp;RelativeLayout</a>).</p><p>&nbsp;</p><p><strong>1. Does the ConstraintLayout have better performance than a nested Layout?</strong></p><p>&nbsp;</p><p>&nbsp;</p><p>Yes,&nbsp;<code>ConstraintLayout</code>&nbsp;has designed with performance optimization in mind, more effective, easy use, and trying to eliminate as many pass scenarios as possible. This is done by eliminating the deeply-nested view hierarchies with flat view&nbsp;hierarchies.</p><p><strong>2. Can we replace&nbsp;RelativeLayout&nbsp;with&nbsp;ConstraintLayout completly?</strong></p><p>Yes, you can completely replace RelativeLayout with ConstraintLayout.&nbsp;<code>ConstraintLayout</code>&nbsp;does all that&nbsp;<code>RelativeLayout</code>&nbsp;does, and more.</p><p><strong>3. Do&nbsp;we don&rsquo;t need to write many dimens.xml for all screen resolution to have a responsive app?</strong></p><p>It depends on what you want to do &ndash; using dimensions might still be useful, for example- &nbsp;you might want the same layout but with different margins for different sizes of devices. That time you have to add many dimen.xml resource files.</p>"
+	}, {
+		"id": 48,
+		"category": "android",
+		"question": "What is Proguard in Android?",
+		"referenceLink": "https://www.geeksforgeeks.org/proguard-in-android/",
+		"answer": "<p>Proguard is a great tool for creating a production-ready application in Android. It assists us in reducing code and making apps faster. Proguard is included by default in Android Studio and can help in a variety of ways, a few of which are listed below.</p><ol><li>It obfuscates the code, which means that it changes the names to something smaller, such as A for MainViewModel. After obfuscating the app, reverse engineering becomes difficult.</li><li>It shrinks the resources, ignoring resources that are not called by our Class files, are not used in our Android app, such as images from drawable, and so on. This will significantly reduce the app&rsquo;s size. To keep your app light and fast, you should always shrink it.</li></ol>"
+	}, {
+		"id": 49,
+		"category": "android",
+		"question": "What is Multidex in Android?",
+		"referenceLink": "https://blog.mindorks.com/understanding-multidex-in-android",
+		"answer": "<p>In Android, the compilers convert your source code into DEX files. This DEX file contains the compiled code used to run the app. But there is a limitation with the DEX file. The DEX file limits the total number of methods that can be referenced within a single DEX file to 64K i.e. 65,536 methods. So, you can&#39;t use more than 64K methods in a particular DEX file. These 64K methods include Android framework methods, library methods, and methods in our code also. This limit of 64K is referred to as the &quot;<strong>64K reference limit</strong>&quot;.</p><p>&nbsp;</p><p>So, if our app exceeds 65,536 methods, we will encounter a build error that indicates our app has reached the limit of the Android build architecture. The error is as follows:</p><p>&nbsp;</p><blockquote><pre> <code>Too many field references: 131000; max is 65536. You may try using --multi-dex option.</code></pre></blockquote><p>&nbsp;</p><p>Older versions of the build system report a different error, which also indicates the same problem:</p><p>&nbsp;</p><blockquote><pre> <code>Conversion to Dalvik format failed: Unable to execute dex: method ID not in [0, 0xffff]: 65536</code></pre></blockquote><p>&nbsp;</p><p>&nbsp;</p><p>Both the above error are known as&nbsp;<strong>64K reference limit&nbsp;</strong>i.e we are trying to use more than 64K methods in our code. So, here comes the role of Multidex support in our Android Project.</p>"
+	}, {
+		"id": 50,
+		"category": "android",
+		"question": "Android RecyclerView?",
+		"referenceLink": "https://developer.android.com/develop/ui/views/layout/recyclerview",
+		"answer": "<p>RecyclerView makes it easy to efficiently display large sets of data. You supply the data and define how each item looks, and the RecyclerView library dynamically creates the elements when they&#39;re needed.</p><p>As the name implies, RecyclerView&nbsp;<em>recycles</em>&nbsp;those individual elements. When an item scrolls off the screen, RecyclerView doesn&#39;t destroy its view. Instead, RecyclerView reuses the view for new items that have scrolled onscreen. This reuse vastly improves performance, improving your app&#39;s responsiveness and reducing power consumption.</p><p><strong>Note:</strong>&nbsp;Besides being the name of the class, RecyclerView is also the name of the library. In this page,&nbsp;<code>RecyclerView</code>&nbsp;in&nbsp;<code>code font</code>&nbsp;always means the class in the RecyclerView library.</p>"
+	}, {
+		"id": 51,
+		"category": "android",
+		"question": "Android Listview?",
+		"referenceLink": "https://www.geeksforgeeks.org/android-listview-in-java-with-example/",
+		"answer": "<p>A <strong>ListView</strong> is a type of&nbsp;<a href='https://developer.android.com/reference/android/widget/AdapterView' rel='noopener noreferrer nofollow' target='_blank'>AdapterView</a>&nbsp;that displays a vertical list of scroll-able views and each view is placed one below the other. Using adapter, items are inserted into the list from an array or database. For displaying the items in the list method&nbsp;<code><strong>setAdaptor()</strong></code>&nbsp;is used.&nbsp;<code><strong>setAdaptor()</strong></code>&nbsp;method conjoins an adapter with the list.</p><p>Android ListView is a ViewGroup that is used to display the list of items in multiple rows and contains an adapter that automatically inserts the items into the list.</p><p>The main purpose of the adapter is to fetch data from an array or database and insert each item that placed into the list for the desired result. So, it is the main source to pull data from strings.xml file which contains all the required strings in Java or XML files.</p>"
+	}, {
+		"id": 52,
+		"category": "android",
+		"question": "What is Context on Android?",
+		"referenceLink": "https://www.tutorialspoint.com/what-is-context-on-android",
+		"answer": "it's the context of current state of the application/object. It lets newly-created objects understand what has been going on. Typically, you call it to get information regarding another part of your program (activity and package/application)."
+	}, {
+		"id": 53,
+		"category": "android",
+		"question": "What are the permission protection levels in Android?",
+		"referenceLink": "",
+		"answer": "<ul><li><strong>Normal</strong>&nbsp;&mdash; A lower-risk permission that gives requesting applications access to isolated application-level features, with minimal risk to other applications, the system, or the user. The system automatically grants this type of permission to a requesting application at installation, without asking for the user&rsquo;s explicit approval.</li><li><strong>Dangerous</strong>&nbsp;&mdash; A higher-risk permission. Any dangerous permissions requested by an application may be displayed to the user and require confirmation before proceeding, or some other approach may be taken to avoid the user automatically allowing the use of such facilities.</li><li><strong>Signature</strong>&nbsp;&mdash; A permission that the system grants only if the requesting application is signed with the same certificate as the application that declared the permission. If the certificates match, the system automatically grants the permission without notifying the user or asking for the user&rsquo;s explicit approval.</li><li><strong>SignatureOrSystem</strong>&nbsp;&mdash; A permission that the system grants only to applications that are in the Android system image or that are signed with the same certificate as the application that declared the permission.</li></ul>"
+	}, {
+		"id": 54,
+		"category": "android",
+		"question": "What is a JobScheduler?",
+		"referenceLink": "https://developer.android.com/reference/android/app/job/JobScheduler",
+		"answer": "<ul><li><p>The&nbsp;<strong>JobScheduler</strong>&nbsp;API performs an operation for your application when a set of predefined conditions are met (such as when a device is plugged into a power source or connected to a Wi-Fi network). This allows your app to perform the given task while being considerate of the device&#39;s battery at the cost of timing control.</p><p>Unlike the&nbsp;<strong>AlarmManager</strong>&nbsp;class, the timing isn&#39;t exact. Compared to a custom&nbsp;<strong>SyncAdapter</strong>&nbsp;or the&nbsp;<strong>AlarmManager</strong>, the JobScheduler supports batch scheduling of jobs. The Android system can combine jobs so that battery consumption is reduced. JobManager makes handling uploads easier as it handles automatically the unreliability of the network. It also survives application restarts. Here are example when you would use this job scheduler:</p></li><li>Tasks that should be done once the device is connect to a power supply</li><li>Tasks that require network access or a Wi-Fi connection.</li><li>Task that are not critical or user facing</li><li>Tasks that should be running on a regular basis as batch where the timing is not critical</li></ul>"
+	}, {
+		"id": 55,
+		"category": "android",
+		"question": "What is the ViewHolder pattern? Why should we use it?",
+		"referenceLink": "https://www.javatpoint.com/android-interview-questions",
+		"answer": "<p>Every time when the adapter calls&nbsp;<code>getView()</code>&nbsp;method, the&nbsp;<code>findViewById()</code>&nbsp;method is also called. This is a very intensive work for the mobile CPU and so affects the performance of the application and the battery consumption increases.&nbsp;<strong>ViewHolder</strong>&nbsp;is a design pattern which can be applied as a way around repeated use of&nbsp;<code>findViewById()</code>.</p><p>A ViewHolder holds the reference to the id of the view resource and calls to the resource will not be required after you &quot;find&quot; them: Thus performance of the application increases.</p>"
+	}]
 }
