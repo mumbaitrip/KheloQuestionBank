@@ -3,17 +3,17 @@
 		"id": 1,
 		"question": "Android is -",
 		"category": "android",
-		"answer": ["a web browser", "an operating system", "a web server", "None of the above"],
+		"answer": ["a web browser", "an operating system", "a web server", "None of these"],
 		"correctAnswer": "an operating system"
 	}, {
 		"id": 2,
 		"question": "Under which of the following Android is licensed?",
 		"category": "android",
-		"answer": ["OSS", "OSS", "Apache/MIT", "None of the above"],
+		"answer": ["OSS", "OSS", "Apache/MIT", "None of these"],
 		"correctAnswer": "Apache/MIT"
 	}, {
 		"id": 3,
-		"question": " For which of the following Android is mainly developed?",
+		"question": "For which of the following Android is mainly developed?",
 		"category": "android",
 		"answer": ["Mobile devices", "Watch", "Desktops", "Servers"],
 		"correctAnswer": "Mobile devices"
@@ -27,12 +27,12 @@
 		"id": 5,
 		"question": "Which of the following virtual machine is used by the Android operating system?",
 		"category": "android",
-		"answer": ["Simple virtual machine", "JVM", "Dalvik virtual machine", "None of the above"],
+		"answer": ["Simple virtual machine", "JVM", "Dalvik virtual machine", "None of these"],
 		"correctAnswer": "Dalvik virtual machine"
 	}, {
 		"id": 6,
 		"question": "APK stands for -",
-		"answer": ["Android Page Kit", "Android Phone Kit", "Android Package Kit", "None of the above"],
+		"answer": ["Android Page Kit", "Android Phone Kit", "Android Package Kit", "None of these"],
 		"category": "android",
 		"correctAnswer": "Android Package Kit"
 	}, {
@@ -68,7 +68,7 @@
 	}, {
 		"id": 12,
 		"question": "ADB stands for -",
-		"answer": ["Android destroy bridge", "Android delete bridge", "Android debug bridge", "None of the above"],
+		"answer": ["Android destroy bridge", "Android delete bridge", "Android debug bridge", "None of these"],
 		"category": "android",
 		"correctAnswer": "Android debug bridge"
 	}, {
@@ -116,19 +116,19 @@
 	}, {
 		"id": 20,
 		"question": "AAPT stands for -",
-		"answer": ["Android Action Packaging Tool", "Android Activity Packaging Tool", "Android Asset Packaging Tool", "None of the above"],
+		"answer": ["Android Action Packaging Tool", "Android Activity Packaging Tool", "Android Asset Packaging Tool", "None of these"],
 		"category": "android",
 		"correctAnswer": "Android Asset Packaging Tool"
 	}, {
 		"id": 21,
 		"question": "NDK stands for -",
-		"answer": ["Native Development Kit", "New Development kit", "Native Design Kit", "None of the above"],
+		"answer": ["Native Development Kit", "New Development kit", "Native Design Kit", "None of these"],
 		"category": "android",
 		"correctAnswer": "Native Development Kit"
 	}, {
 		"id": 22,
 		"question": "Which of the following is contained in the src folder?",
-		"answer": ["Manifest", "Java source code", "XML", "None of the above"],
+		"answer": ["Manifest", "Java source code", "XML", "None of these"],
 		"category": "android",
 		"correctAnswer": "Java source code"
 	}, {
@@ -243,13 +243,13 @@
 		"id": 41,
 		"question": "ANR in android stands for -",
 		"category": "android",
-		"answer": ["Application Not Responding", "Application Not Rendering", "Application Not Reacting", "None of the above"],
+		"answer": ["Application Not Responding", "Application Not Rendering", "Application Not Reacting", "None of these"],
 		"correctAnswer": "Application Not Responding"
 	}, {
 		"id": 42,
 		"question": "All layout classes are the subclasses of -",
 		"category": "android",
-		"answer": ["android.view.ViewGroup", "android.view.View", "android.widget", "None of the above"],
+		"answer": ["android.view.ViewGroup", "android.view.View", "android.widget", "None of these"],
 		"correctAnswer": "android.view.ViewGroup"
 	}, {
 		"id": 43,
@@ -273,7 +273,7 @@
 		"id": 46,
 		"question": "What is the default value of the orientation attribute in LinearLayout?",
 		"category": "android",
-		"answer": ["Vertical", "Horizontal", "There is no default value of orientation attribute in LinearLayout", "None of the above"],
+		"answer": ["Vertical", "Horizontal", "There is no default value of orientation attribute in LinearLayout", "None of these"],
 		"correctAnswer": "Horizontal"
 	}, {
 		"id": 47,
@@ -285,7 +285,7 @@
 		"id": 48,
 		"question": "GCM in android stands for -",
 		"category": "android",
-		"answer": ["Google Count Messaging", "Google Center Messaging", "Google Cloud Messaging", "None of the above"],
+		"answer": ["Google Count Messaging", "Google Center Messaging", "Google Cloud Messaging", "None of these"],
 		"correctAnswer": "Google Cloud Messaging"
 	}],
 	"interviewQuestions": [{
@@ -308,7 +308,7 @@
 		"subType": "android",
 		"question": "Explain the Android application Architecture.",
 		"referenceLink": "https://www.geeksforgeeks.org/android-architecture/",
-		"answer": "<h2><strong>Android Architecture</strong></h2><p>Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.</p><p>Among all the components Linux Kernel provides main functionality of operating system functions to smartphones and Dalvik Virtual Machine (DVM) provide platform for running an android application.</p><p>The main components of android architecture are following:-</p><ul><li>Applications</li><li>Application Frameworks</li><li>Android Runtime</li><li>Platform Libraries</li><li>Linux Kernel</li></ul><p><strong>Applications:</strong></p><p>Application is the top layer of android architecture. The pre-installed applications like home, contacts, camera, gallery etc and third party applications downloaded from the play store like chat applications, games etc. will be installed on this layer only.</p><p>It runs within the Android run time with the help of the classes and services provided by the application framework.</p><p>&nbsp;</p><p><strong>Application Frameworks:</strong></p><p>Application Framework provides several important classes which are used to create an Android application. It provides a generic abstraction for hardware access and also helps in managing the user interface with application resources. Generally, it provides the services with the help of which we can create a particular class and make that class helpful for the Applications creation.</p><p>It includes different types of services <strong>activity manager, notification manager, view system, package manager</strong> etc. which are helpful for the development of our application according to the prerequisite.</p><p>&nbsp;</p><p><strong>Android Runtime:</strong></p><p>Android Runtime environment is one of the most important part of Android. It contains components like core libraries and the Dalvik virtual machine(DVM). Mainly, it provides the base for the application framework and powers our application with the help of the core libraries.</p><p>Like Java Virtual Machine (JVM),&nbsp;<strong>Dalvik Virtual Machine (DVM)</strong>&nbsp;is a register-based virtual machine and specially designed and optimized for android to ensure that a device can run multiple instances efficiently. It depends on the layer Linux kernel for threading and low-level memory management. The core libraries enable us to implement android applications using the standard JAVA or Kotlin programming languages.</p><p>&nbsp;</p><p><strong>Platform Libraries:</strong></p><p>The Platform Libraries includes various C/C++ core libraries and Java based libraries such as Media, Graphics, Surface Manager, OpenGL etc. to provide a support for android development.</p><ul><li><strong>Media</strong>&nbsp;library provides support to play and record an audio and video formats.</li><li><strong>Surface manager</strong>&nbsp;responsible for managing access to the display subsystem.</li><li><strong>SGL</strong>&nbsp;and&nbsp;<strong>OpenGL</strong>&nbsp;both cross-language, cross-platform application program interface (API) are used for 2D and 3D computer graphics.</li><li><strong>SQLite</strong>&nbsp;provides database support and&nbsp;<strong>FreeType</strong>&nbsp;provides font support.</li><li><strong>Web-Kit</strong>&nbsp;This open source web browser engine provides all the functionality to display web content and to simplify page loading.</li><li><strong>SSL (Secure Sockets Layer)</strong>&nbsp;is security technology to establish an encrypted link between a web server and a web browser.</li></ul><p>&nbsp;</p><p><strong>Linux Kernel:</strong></p><p>Linux Kernel is the last layer of android architecture and also is&nbsp;heart of the android architecture. It manages all the available drivers such as display drivers, camera drivers, Bluetooth drivers, audio drivers, memory drivers, etc. which are required during the runtime.</p><p>The Linux Kernel will provide an abstraction layer between the device hardware and the other components of android architecture. It is responsible for management of memory, power, devices etc.</p><p>The features of Linux kernel are:</p><ul><li><strong>Security:</strong>&nbsp;The Linux kernel handles the security between the application and the system.</li><li><strong>Memory Management:</strong>&nbsp;It efficiently handles the memory management thereby providing the freedom to develop our apps.</li><li><strong>Process Management:</strong>&nbsp;It manages the process well, allocates resources to processes whenever they need them.</li><li><strong>Network Stack:</strong>&nbsp;It effectively handles the network communication.</li><li><strong>Driver Model:</strong>&nbsp;It ensures that the application works properly on the device and hardware manufacturers responsible for building their drivers into the Linux build.</li></ul>"
+		"answer": "<h4><strong>Android Architecture</strong></h4><p>Android architecture contains different number of components to support any android device needs. Android software contains an open-source Linux Kernel having collection of number of C/C++ libraries which are exposed through an application framework services.</p><p>Among all the components Linux Kernel provides main functionality of operating system functions to smartphones and Dalvik Virtual Machine (DVM) provide platform for running an android application.</p><p>The main components of android architecture are following:-</p><ul><li>Applications</li><li>Application Frameworks</li><li>Android Runtime</li><li>Platform Libraries</li><li>Linux Kernel</li></ul><p><strong>Applications:</strong></p><p>Application is the top layer of android architecture. The pre-installed applications like home, contacts, camera, gallery etc and third party applications downloaded from the play store like chat applications, games etc. will be installed on this layer only.</p><p>It runs within the Android run time with the help of the classes and services provided by the application framework.</p><p>&nbsp;</p><p><strong>Application Frameworks:</strong></p><p>Application Framework provides several important classes which are used to create an Android application. It provides a generic abstraction for hardware access and also helps in managing the user interface with application resources. Generally, it provides the services with the help of which we can create a particular class and make that class helpful for the Applications creation.</p><p>It includes different types of services <strong>activity manager, notification manager, view system, package manager</strong> etc. which are helpful for the development of our application according to the prerequisite.</p><p>&nbsp;</p><p><strong>Android Runtime:</strong></p><p>Android Runtime environment is one of the most important part of Android. It contains components like core libraries and the Dalvik virtual machine(DVM). Mainly, it provides the base for the application framework and powers our application with the help of the core libraries.</p><p>Like Java Virtual Machine (JVM),&nbsp;<strong>Dalvik Virtual Machine (DVM)</strong>&nbsp;is a register-based virtual machine and specially designed and optimized for android to ensure that a device can run multiple instances efficiently. It depends on the layer Linux kernel for threading and low-level memory management. The core libraries enable us to implement android applications using the standard JAVA or Kotlin programming languages.</p><p>&nbsp;</p><p><strong>Platform Libraries:</strong></p><p>The Platform Libraries includes various C/C++ core libraries and Java based libraries such as Media, Graphics, Surface Manager, OpenGL etc. to provide a support for android development.</p><ul><li><strong>Media</strong>&nbsp;library provides support to play and record an audio and video formats.</li><li><strong>Surface manager</strong>&nbsp;responsible for managing access to the display subsystem.</li><li><strong>SGL</strong>&nbsp;and&nbsp;<strong>OpenGL</strong>&nbsp;both cross-language, cross-platform application program interface (API) are used for 2D and 3D computer graphics.</li><li><strong>SQLite</strong>&nbsp;provides database support and&nbsp;<strong>FreeType</strong>&nbsp;provides font support.</li><li><strong>Web-Kit</strong>&nbsp;This open source web browser engine provides all the functionality to display web content and to simplify page loading.</li><li><strong>SSL (Secure Sockets Layer)</strong>&nbsp;is security technology to establish an encrypted link between a web server and a web browser.</li></ul><p>&nbsp;</p><p><strong>Linux Kernel:</strong></p><p>Linux Kernel is the last layer of android architecture and also is&nbsp;heart of the android architecture. It manages all the available drivers such as display drivers, camera drivers, Bluetooth drivers, audio drivers, memory drivers, etc. which are required during the runtime.</p><p>The Linux Kernel will provide an abstraction layer between the device hardware and the other components of android architecture. It is responsible for management of memory, power, devices etc.</p><p>The features of Linux kernel are:</p><ul><li><strong>Security:</strong>&nbsp;The Linux kernel handles the security between the application and the system.</li><li><strong>Memory Management:</strong>&nbsp;It efficiently handles the memory management thereby providing the freedom to develop our apps.</li><li><strong>Process Management:</strong>&nbsp;It manages the process well, allocates resources to processes whenever they need them.</li><li><strong>Network Stack:</strong>&nbsp;It effectively handles the network communication.</li><li><strong>Driver Model:</strong>&nbsp;It ensures that the application works properly on the device and hardware manufacturers responsible for building their drivers into the Linux build.</li></ul>"
 	}, {
 		"id": 4,
 		"category": "android",
