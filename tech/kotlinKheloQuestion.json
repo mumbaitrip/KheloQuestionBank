@@ -1,83 +1,42 @@
 {
-	"allQuestions": [{
-		"id": 58,
-		"category": "kotlin",
-		"question": "What of Kotlin?",
-		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
-		"answer": "<p><strong>Kotlin </strong>is an open-source, general-purpose, statically typed programming language. It is JVM-based and may be used in all projects where&nbsp;<a href='https://www.interviewbit.com/online-java-compiler/' rel='noopener noreferrer' target='_blank'>Java</a>&nbsp;is currently used. It may be used to create Android apps, server-side apps, and a variety of other applications. It is an improved version of Java and is completely interoperable with it. We can even mix Kotlin and Java in the same project. It blends Object Oriented Programming<strong> (OOPs)</strong> and functional programming in a platform that is unlimited, self-contained, and unique. It also enables functional twinning using microcodes.&nbsp;</p><p>Programs written in Kotlin do <strong>not require semicolons</strong>. This makes the code <strong>more readable</strong> and <strong>easy to understand</strong>. This language enables the interchange and usage of Java in a variety of ways. Furthermore, <strong>code written in Java and Kotlin can coexist in the same project</strong>. The type system of Kotlin is designed to<strong> eliminate NullPointerException from code</strong>. Writing new code in Kotlin will take you <strong>less time</strong>. Kotlin code is even <strong>easier to deploy and manage at scale</strong>.</p>"
-	}, {
-		"id": 59,
+	"allQuestions": [],
+	"interviewQuestions": [{
+		"id": 72,
 		"category": "kotlin",
 		"question": "Advantages of Kotlin?",
 		"referenceLink": "https://sagaratechnology.medium.com/what-are-the-benefits-of-kotlin-d7fdcd1cfc0",
-		"answer": "<p><strong>The Benefit of Kotlin</strong></p><p>&nbsp;</p><p>&nbsp;</p><ul><li><strong>Compact code</strong>: Kotlin is an OOPs-based programming language with code lines that may be reduced by up to 40% when compared to Java, making it an excellent choice for software development.</li><li><strong>Open Source</strong>: Kotlin for Android is open-source and uses the JVM to combine the benefits of OOPs and functional programming.</li><li><strong>Simple Language</strong>: When working with Kotlin, compiling the code is simple, resulting in improved performance for&nbsp;<a href='https://www.interviewbit.com/android-interview-questions/' rel='noopener noreferrer' target='_blank'>Android development</a>. It also explains which types of data functions can be used throughout the code.</li><li><strong>High number of extensions</strong>: Without modifying the code, Kotlin may support a variety of extension functions. It aids developers in making existing code more appealing and wonderful.</li><li><strong>Full Java Interoperability</strong>: Java code can utilize Kotlin code, and Kotlin code can use Java code. So, if you&#39;re familiar with OOPS programming, switching to Kotlin development is simple. Also, if there are any Java-based applications, they can be used with Kotlin&#39;s environment.</li><li><strong>Smart Cast</strong>: Smart casting is a technique that reduces the cost of an application while also improving its speed and performance. It uses typecasting or immutable data to manage the efficiency of programming. This technique is supported by Kotlin.</li><li><strong>Low Learning Curve</strong>: Kotlin is preferred by businesses due to its low adoption cost. Most significantly, it is simple for developers to learn, especially if they have programming experience.</li></ul></p>"
+		"answer": "<p><strong>The Benefit of Kotlin</strong></p><ul><li><strong>Compact code</strong>: Kotlin is an OOPs-based programming language with code lines that may be reduced by up to 40% when compared to Java, making it an excellent choice for software development.</li><li><strong>Open Source</strong>: Kotlin for Android is open-source and uses the JVM to combine the benefits of OOPs and functional programming.</li><li><strong>Simple Language</strong>: When working with Kotlin, compiling the code is simple, resulting in improved performance for&nbsp;<a href='https://www.interviewbit.com/android-interview-questions/' rel='noopener noreferrer' target='_blank'>Android development</a>. It also explains which types of data functions can be used throughout the code.</li><li><strong>High number of extensions</strong>: Without modifying the code, Kotlin may support a variety of extension functions. It aids developers in making existing code more appealing and wonderful.</li><li><strong>Full Java Interoperability</strong>: Java code can utilize Kotlin code, and Kotlin code can use Java code. So, if you&#39;re familiar with OOPS programming, switching to Kotlin development is simple. Also, if there are any Java-based applications, they can be used with Kotlin&#39;s environment.</li><li><strong>Smart Cast</strong>: Smart casting is a technique that reduces the cost of an application while also improving its speed and performance. It uses typecasting or immutable data to manage the efficiency of programming. This technique is supported by Kotlin.</li><li><strong>Low Learning Curve</strong>: Kotlin is preferred by businesses due to its low adoption cost. Most significantly, it is simple for developers to learn, especially if they have programming experience.</li></ul></p>"
 	}, {
-		"id": 60,
+		"id": 73,
 		"category": "kotlin",
 		"question": "What are the various data types available in Kotlin?",
 		"referenceLink": "",
 		"answer": "<p>Kotlin Data Types:</p><ul><li>Boolean</li><li>Character</li><li>Number<ul><li>Byte</li><li>Short</li><li>Int</li><li>Long</li><li>Double</li><li>Float</li></ul></li><li>String</li><li>Array</li></ul>"
 	}, {
-		"id": 61,
+		"id": 74,
 		"category": "kotlin",
 		"question": "How are variables declared in Kotlin?",
 		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
 		"answer": "<p>Every variable in Kotlin must be declared before it can be used. An attempt to use a variable without declaring it results in a syntax error. The type of data you are authorised to put in the memory address is determined by the variable type declaration. The type of variable can be determined from the initialised value in the case of local variables.</p><p>For example,</p><p><strong><em><code>var site=&quot;interviewbit&quot;</code></em></strong></p><p>The above code declares a variable &ldquo;site&rdquo; of type String because the value with which the variable is initialised is a String.</p>"
 	}, {
-		"id": 62,
+		"id": 75,
 		"category": "kotlin",
 		"question": "What are the different types of variables in Kotlin?",
 		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
 		"answer": "<p>There are broadly two types of variables in Kotlin. They are as follows:-</p><ul><li><strong>val </strong>(<strong>Immutable Variables</strong>)</li><li><strong>var </strong>(<strong>Mutable Variables</strong>)</li></ul><p><strong>Immutable Variables</strong>&nbsp;&mdash; Immutable variables are also known as read-only variables. They are declared using the val keyword. Once these variables have been declared, we cannot change their values.</p><p>The&nbsp;<strong>syntax</strong>&nbsp;is as follows :</p><blockquote><p><strong><em>val variableName=value</em></strong></p></blockquote><p>Example:</p><p><em>val str=&quot;Hello World&quot;</em></p><p><em>str=&quot;Hello again&quot;&nbsp; // this will show compile time error because val str can not be modified again once declare.</em></p><p>&nbsp;</p><p><strong>Mutable Variables</strong>&nbsp;- In a mutable variable, the value of the variable can be changed. We use the keyword &ldquo;var&rdquo; to declare such variables.</p><p>The&nbsp;<strong>syntax</strong>&nbsp;is as follows :</p><blockquote><p><strong><em>var variableName=value</em></strong></p></blockquote><p>Example:</p><p><em>var str=&quot;Hello World&quot;</em></p><p><em>str=&quot;Hello again&quot;&nbsp; // this will set the value of str to &quot;Hello again&quot; without any error.</em></p><p>&nbsp;</p>"
 	}, {
-		"id": 63,
+		"id": 76,
 		"category": "kotlin",
 		"question": "What are data classes in Kotlin? Explain with a proper example.",
 		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
 		"answer": "<p>The Data class is a simple class that holds data and provides typical functions. To declare a class as a data class, use the data keyword.&nbsp;</p><p><strong>Syntax:</strong></p><blockquote><p><strong>data class className ( list_of_parameters)</strong></p></blockquote><p>The following functions are automatically derived by the compiler for the data classes:</p><ul><li><strong>equals()&nbsp;</strong>- The equals() function returns true if two objects have the identical contents. It operates similarly to &quot;==,&quot; although for Float and Double values it works differently.</li><li><strong>hashCode()&nbsp;</strong>- The hashCode() function returns the object&#39;s hashcode value.</li><li><strong>copy()</strong>&nbsp;- The copy() function is used to duplicate an object, changing only a few of its characteristics while leaving the rest unaltered.</li><li><strong>toString()</strong>&nbsp;- This function returns a string containing all of the data class&#39;s parameters.</li></ul><p style='margin-left:40px'>To ensure consistency, data classes must meet the following requirements:</p><ul><li>At least one parameter is required for the primary constructor.</li><li>val or var must be used for all primary constructor parameters.</li><li>Abstract, open, sealed, or inner data classes are not possible.</li><li>Only interfaces may be implemented by data classes.</li></ul><p><strong>Example:</strong></p><blockquote><p><strong>data class Sample(var input1 : Int, var input2 : Int)</strong></p></blockquote>"
-	}],
-	"interviewQuestions": [{
-		"id": 72,
+	}, {
+		"id": 77,
 		"category": "kotlin",
 		"subType": "kotlin",
 		"question": "What are Infix and Inline functions in Kotlin?",
 		"referenceLink": "",
 		"answer": ""
-	}, {
-		"id": 73,
-		"category": "kotlin",
-		"subType": "kotlin",
-		"question": "What of Kotlin?",
-		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
-		"answer": "<p><strong>Kotlin </strong>is an open-source, general-purpose, statically typed programming language. It is JVM-based and may be used in all projects where&nbsp;<a href='https://www.interviewbit.com/online-java-compiler/' rel='noopener noreferrer' target='_blank'>Java</a>&nbsp;is currently used. It may be used to create Android apps, server-side apps, and a variety of other applications. It is an improved version of Java and is completely interoperable with it. We can even mix Kotlin and Java in the same project. It blends Object Oriented Programming<strong> (OOPs)</strong> and functional programming in a platform that is unlimited, self-contained, and unique. It also enables functional twinning using microcodes.&nbsp;</p><p>Programs written in Kotlin do <strong>not require semicolons</strong>. This makes the code <strong>more readable</strong> and <strong>easy to understand</strong>. This language enables the interchange and usage of Java in a variety of ways. Furthermore, <strong>code written in Java and Kotlin can coexist in the same project</strong>. The type system of Kotlin is designed to<strong> eliminate NullPointerException from code</strong>. Writing new code in Kotlin will take you <strong>less time</strong>. Kotlin code is even <strong>easier to deploy and manage at scale</strong>.</p>"
-	}, {
-		"id": 74,
-		"category": "kotlin",
-		"subType": "kotlin",
-		"question": "Advantages of Kotlin?",
-		"referenceLink": "https://sagaratechnology.medium.com/what-are-the-benefits-of-kotlin-d7fdcd1cfc0",
-		"answer": "<p><strong>The Benefit of Kotlin</strong></p><ul><li><strong>Compact code</strong>: Kotlin is an OOPs-based programming language with code lines that may be reduced by up to 40% when compared to Java, making it an excellent choice for software development.</li><li><strong>Open Source</strong>: Kotlin for Android is open-source and uses the JVM to combine the benefits of OOPs and functional programming.</li><li><strong>Simple Language</strong>: When working with Kotlin, compiling the code is simple, resulting in improved performance for&nbsp;<a href='https: //www.interviewbit.com/android-interview-questions/' rel='noopener noreferrer' target='_blank'>Android development</a>. It also explains which types of data functions can be used throughout the code.</li><li><strong>High number of extensions</strong>: Without modifying the code, Kotlin may support a variety of extension functions. It aids developers in making existing code more appealing and wonderful.</li><li><strong>Full Java Interoperability</strong>: Java code can utilize Kotlin code, and Kotlin code can use Java code. So, if you&#39;re familiar with OOPS programming, switching to Kotlin development is simple. Also, if there are any Java-based applications, they can be used with Kotlin&#39;s environment.</li><li><strong>Smart Cast</strong>: Smart casting is a technique that reduces the cost of an application while also improving its speed and performance. It uses typecasting or immutable data to manage the efficiency of programming. This technique is supported by Kotlin.</li><li><strong>Low Learning Curve</strong>: Kotlin is preferred by businesses due to its low adoption cost. Most significantly, it is simple for developers to learn, especially if they have programming experience.</li></ul></p>"
-	}, {
-		"id": 75,
-		"category": "kotlin",
-		"subType": "kotlin",
-		"question": "What are the various data types available in Kotlin?",
-		"referenceLink": "",
-		"answer": "<p>Kotlin Data Types:</p><ul><li>Boolean</li><li>Character</li><li>Number<ul><li>Byte</li><li>Short</li><li>Int</li><li>Long</li><li>Double</li><li>Float</li></ul></li><li>String</li><li>Array</li></ul>"
-	}, {
-		"id": 76,
-		"category": "kotlin",
-		"subType": "kotlin",
-		"question": "How are variables declared in Kotlin?",
-		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
-		"answer": "<p>Every variable in Kotlin must be declared before it can be used. An attempt to use a variable without declaring it results in a syntax error. The type of data you are authorised to put in the memory address is determined by the variable type declaration. The type of variable can be determined from the initialised value in the case of local variables.</p><p>For example,</p><p><strong><em><code>var site=&quot;interviewbit&quot;</code></em></strong></p><p>The above code declares a variable &ldquo;site&rdquo; of type String because the value with which the variable is initialised is a String.</p>"
-	}, {
-		"id": 77,
-		"category": "kotlin",
-		"subType": "kotlin",
-		"question": "What are the different types of variables in Kotlin?",
-		"referenceLink": "https://www.interviewbit.com/kotlin-interview-questions/",
-		"answer": "<p>There are broadly two types of variables in Kotlin. They are as follows:-</p><ul><li><strong>val </strong>(<strong>Immutable Variables</strong>)</li><li><strong>var </strong>(<strong>Mutable Variables</strong>)</li></ul><p><strong>Immutable Variables</strong>&nbsp;&mdash; Immutable variables are also known as read-only variables. They are declared using the val keyword. Once these variables have been declared, we cannot change their values.</p><p>The&nbsp;<strong>syntax</strong>&nbsp;is as follows :</p><blockquote><p><strong><em>val variableName=value</em></strong></p></blockquote><p>Example:</p><p><em>val str=&quot;Hello World&quot;</em></p><p><em>str=&quot;Hello again&quot;&nbsp; // this will show compile time error because val str can not be modified again once declare.</em></p><p>&nbsp;</p><p><strong>Mutable Variables</strong>&nbsp;- In a mutable variable, the value of the variable can be changed. We use the keyword &ldquo;var&rdquo; to declare such variables.</p><p>The&nbsp;<strong>syntax</strong>&nbsp;is as follows :</p><blockquote><p><strong><em>var variableName=value</em></strong></p></blockquote><p>Example:</p><p><em>var str=&quot;Hello World&quot;</em></p><p><em>str=&quot;Hello again&quot;&nbsp; // this will set the value of str to &quot;Hello again&quot; without any error.</em></p><p>&nbsp;</p>"
 	}, {
 		"id": 78,
 		"category": "kotlin",
